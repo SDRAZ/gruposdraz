@@ -50,7 +50,7 @@ export const PageLayout:FC<Props> = ({ children, title, pageDescription, imageFu
         <main className='main' style={{
             margin: '50px auto',
             maxWidth: '1920px',
-            padding: '0 20px',
+            padding: '0',
         }}>
             { children }
         </main>

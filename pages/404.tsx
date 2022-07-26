@@ -7,7 +7,7 @@ const Custom404 = () => {
    <PageLayout title={'Page not found'} pageDescription={'Página no encontrada'}>
         <Box display='flex' flexDirection='column' justifyContent='center' alignItems='center' height='calc(100vh - 200px)'>
             <Typography variant='h1' component='h1' fontSize={70}>404</Typography>
-            <Typography variant='h3' component='h3' textAlign='center'>Oops! you went to far!</Typography>
+            <Typography variant='h3' component='h3' textAlign='center'>Oops! No se encontró en contenido!</Typography>
         </Box>
    </PageLayout>
   )
