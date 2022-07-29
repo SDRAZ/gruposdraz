@@ -12,8 +12,8 @@ export const lightTheme = createTheme({
       main: '#1e1e1e'
     },
     info: {
-      light: '#f1f1f1',
-      main: '#fff',
+      light: '#fff',
+      main: '#E5F5FF',
       contrastText: '#000',
     },
   },
@@ -30,8 +30,9 @@ export const lightTheme = createTheme({
       },
       styleOverrides: {
         root: {
-          backgroundColor: 'white',
-          height: 60
+          backgroundColor: '#E5F5FF',
+          height: 70,
+          marginBottom:'1rem'
         },
       }
     },
@@ -120,12 +121,12 @@ export const lightTheme = createTheme({
         root: {
           textTransform: 'none',
           boxShadow: 'none',
-          borderRadius: 100,
+          borderRadius: 8,
           fontWeight:600,
           ":hover": {
-            backgroundColor: '#f2f2f2',
-            transition: 'all 0.3s ease-in-out',
-            color: '#000'
+            backgroundColor: '#9747FF',
+
+            color: '#fff'
           }
         }
       }
@@ -141,7 +142,6 @@ export const lightTheme = createTheme({
         }
       }
     }
-    
-  }
+}
 }
 );

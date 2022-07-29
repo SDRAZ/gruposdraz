@@ -7,6 +7,11 @@ body {
   background: #E5F5FF;
 }
 
+head{
+  background: #E5F5FF;
+height: fit-content;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -22,6 +27,5 @@ a {
   }
   body {
     color: #081142;
-    background: #E5F5FF;
   }
 }
