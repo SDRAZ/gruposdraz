@@ -8,102 +8,72 @@ import { Box, Button, CardMedia, Typography } from '@mui/material';
 
 const Home: NextPage = () => {
 
-  // const [mobile, setMobile] = useState(undefined)
+  const [mobile, setMobile] = useState<boolean | undefined>(true)
 
-  // useEffect(() => {
-  //   const updateMobile = () => {
-  //     setMobile(window.innerWidth < 600 ? true : false)
-  //   }
+  useEffect(() => {
+    const updateMobile = () => {
 
-  //   updateMobile()
-  //   window.addEventListener('resize', updateMobile)
-  //   return () => {
-  //     window.removeEventListener('resize', updateMobile)
-  //   }
-  // }, [])
+      setMobile(window.innerWidth < 900 ? true : false)
+    }
+
+    updateMobile()
+    window.addEventListener('resize', updateMobile)
+    return () => {
+      window.removeEventListener('resize', updateMobile)
+    }
+  }, [])
   
   return (
     <>
-      <PageLayout title={'GRUPO SDRAZ'} pageDescription={'15 años organizando los mejores espectáculos del sureste mexicano.'}>
+      <PageLayout title={'GRUPO ESDRAZ'} pageDescription={'15 años organizando los mejores espectáculos del sureste mexicano.'}>
 
-        {/* <CardMedia
-            component="img"
-            className='fadeIn'
-            sx={{
-                objectFit: 'cover',
-                content: {
-                    xs: `url(https://res.cloudinary.com/dfmfxdkx4/image/upload/v1658876754/web/banner_mobile_s4g1h7.jpg)`,
-                    sm: `url(https://res.cloudinary.com/dfmfxdkx4/image/upload/v1658876283/web/banner_ejemplo_azieye.png)`,  
-                }
-            }}
-              alt={ "banner"}
-        ></CardMedia> */} 
-         {/* <div>
-          { mobile
-            ? <Box display={"flex"}>
-              <Typography variant='h1'>Mas de 100 show diferentes</Typography>
-              <img
-              src="https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659033391/web/main_1_mobile_hwgybj.jpg"
-              alt="Girl in a jacket"
-              width="110%" height="object-fit"
-              style={{objectFit: 'cover'}}
-                  >
-              </img>
-            </Box>
-            : <Box>
-            <img
-              src="https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659033020/web/main_1_dppn5i.jpg"
-              alt="Girl in a jacket"
-              width={'100%'} height={'600px'}
-              style={{objectFit: 'cover'}}
-                  >
-              </img>
-            </Box>
-          }
-          </div> */}
-
-          <Box 
-          display='flex'
-          width="100%"
-          justifyContent='center' 
-
-          style={{ background:'linear-gradient(180deg, #040243 0%, #033276 100%)'}} 
-          sx={{alignItems:{ xs:'flex-end', md:'center' }, boxSizing:"content-box"}}
+          <Box width="100%"
+          display={'flex'}
+          justifyContent={'center'}
+          sx={{
+            alignItems:{sm:'flex-start', md:'center'},
+            
+           }}
           >
 
-            <Box
-            display='flex'
-            alignItems='center'
-            justifyContent='center' 
-            gap={ 2 } color='white' 
-            sx={{ flexDirection:{xs:"column", md:'row'}, textAlign:{ xs:'center', md:'left'}, marginTop:{ xs:'4rem', md:'0'} }}
-            >
-              <Box sx={{ marginLeft:{xs:"0", md:'1.5rem' } }}  maxWidth='600px'>
-                <Typography component={'h1'} fontWeight={ 800 } color='#9747FF' fontSize='46px' lineHeight='50px' > Mas de 100 show diferentes </Typography>
-                <Typography component={'h4'} fontWeight={ 500 }  fontSize='28px' lineHeight='36px' marginTop='1rem' >15 años organizando los mejores espectáculos del sureste mexicano. </Typography>
-               
-                <Box marginTop={3}>
-                  <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'2rem', paddingRight:'2rem' }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
-                </Box>
+            <Box maxWidth='1920px' sx={{zIndex:'2', position:'absolute', padding:{ xs:'1rem', md:'2rem'}, marginTop:{ xs:'1rem', md:'0'} }} className='wrapper' >
+              <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                  <Typography variant='h1' component={'h1'} fontWeight={ 800 } color='#9747FF' lineHeight='50px' > Mas de 100 show diferentes </Typography>
+                  <Typography variant='h5' component={'h4'} fontWeight={ 500 }  lineHeight='36px' marginTop='1rem' >15 años organizando los mejores espectáculos del sureste mexicano. </Typography>
+        
+                  <Box marginTop={3}>
+                    <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'2rem', paddingRight:'2rem' }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
+                  </Box>
               </Box>
+            </Box>
 
-              <Box sx={{ width:{xs:"100%", md:'600px'} }}
-              display='flex'
-              alignItems='flex-end'
-               >
-                <img
+            <Box width='100%'>
+              { mobile
+                ?
+                <Box height='900px'>
+                  <img
+                  src="https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384709/web/dino_mobile_esvxx0.webp"
+                  alt="Girl in a jacket"
+                  style={{objectFit:"cover"}}
+                  width='100%'
+                  height='90%'
+                      >
+                  </img>
+                </Box>
+                :
+                <Box>
+                    <img
                 width='100%'
-                src="https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659043845/web/image_test_cosaxx.png"
+                src="https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384131/web/dino_desktop_ygkqdf.jpg"
                 alt="Show infantil"
                 style={{boxSizing:"content-box"}}
                 />
-              </Box>
+                
+                </Box>
+              }
             </Box>
 
           </Box>
-
-
-
 
 
       </PageLayout>

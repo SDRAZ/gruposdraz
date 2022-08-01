@@ -40,22 +40,23 @@ export const lightTheme = createTheme({
     MuiTypography: {
       styleOverrides: {
         h1: {
-          fontSize: '5rem',
+          fontSize: '3rem',
           fontWeight: 600,
-          '@media (max-width:768px)': {
-            fontSize: '3.05rem',
-          },'@media (max-width:425px)': {
+          '@media (max-width:900px)': {
             fontSize: '2.5rem',
+          },'@media (max-width:425px)': {
+            fontSize: '2rem',
           }
           
         },
         h2: {
-          fontSize: '3.75rem',
+          fontSize: '3.5rem',
           fontWeight: 400,
           '@media (max-width:768px)': {
-            fontSize: '2.75rem',
+            fontSize: '1.5rem',
           },'@media (max-width:425px)': {
             fontSize: '1rem',
+            lineHeight: '20px',
           }
         
         },
@@ -72,9 +73,12 @@ export const lightTheme = createTheme({
           }
         },
         h5: {
-          fontSize: '2rem',
-          '@media (max-width:600px)': {
+          fontSize: '1.9rem',
+          '@media (max-width:768px)': {
             fontSize: '1.5rem',
+            '@media (max-width:600px)': {
+              fontSize: '1.3rem',
+            }
           },
         h6: {
           fontSize: '1.5rem',
