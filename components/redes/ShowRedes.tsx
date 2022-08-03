@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography, Grid, Button } from '@mui/material'
+import { Box, Typography, Grid, Button, Link } from '@mui/material'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -7,7 +7,16 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 export const ShowRedes = () => {
   return (
-    <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center'  sx={{ backgroundColor:'#081142'}}  >
+    <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
+      <Box
+      component='img'
+      src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659565022/web/hotels_zqntee.png'} 
+      width='100%'
+      alt='Hotels asociados'
+      sx={{ margin:'0', padding:'0' }}
+      ></Box>
+    
+    <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center' sx={{ backgroundColor:'#081142'}} width='100%' >
 
     <Box textAlign='center' margin={6}>
         <Typography variant='h4' component='h3' fontWeight={700} color='#fff' >Cotiza tu próximo show</Typography>
@@ -20,13 +29,14 @@ export const ShowRedes = () => {
 
     <Box textAlign='center' margin={ 10 }>
         <Typography variant='h4' component='h3' fontWeight={700} color='#fff' textAlign='center'>Síguenos</Typography>
-        <Box marginTop={ 3 }>
-            <Button><FacebookIcon fontSize='large' /></Button> 
-            <Button><YouTubeIcon fontSize='large' /></Button> 
-            <Button><InstagramIcon fontSize='large' /></Button> 
+        <Box display='flex' alignItems='space-betwwen' justifyContent='center'>
+            <Link href="https://www.facebook.com/ShowsInfantilesEnCancun" target="_blank" margin='1rem'><FacebookIcon fontSize='large' color='info' /> </Link>
+            <Link href="https://www.youtube.com/channel/UC9NEPshZGCKB21t-V0TAgxA" target="_blank" margin='1rem'><YouTubeIcon fontSize='large' color='info' /></Link>
+            <Link href="https://www.instagram.com/esdrikidsoficial" target="_blank" margin='1rem'><InstagramIcon fontSize='large' color='info' /></Link>
         </Box>
     </Box>
 
+    </Box>
     </Box>
   )
 }

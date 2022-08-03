@@ -2,6 +2,10 @@ import { FC } from "react";
 import Head from "next/head"
 import { Navbar, SideMenu } from "../ui";
 import { Footer } from "../ui/Footer";
+import { ShowRedes } from "../redes/ShowRedes";
+import { PartnersSection } from "../hotels/Partners";
+import Box from "@mui/material/Box";
+import { Grid } from "@mui/material";
 
 
 
@@ -51,6 +55,7 @@ export const PageLayout:FC<Props> = ({ children, title, pageDescription, imageFu
         <SideMenu />
 
         <main className='main' style={{
+            margin:'0 auto',
             marginTop: '70px',
             maxWidth: '1920px',
             padding: '0',
@@ -58,6 +63,12 @@ export const PageLayout:FC<Props> = ({ children, title, pageDescription, imageFu
             { children }
         </main>
 
+
+      
+        {/* <PartnersSection /> */}
+
+
+        <ShowRedes />
         <footer>
             <Footer />
         </footer>

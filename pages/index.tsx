@@ -25,8 +25,8 @@ const Home: NextPage = () => {
       <CardList companies={ initialData.company as any }/>
       <SectionVideo />
       <EventosDescuentos image={''} imageName={''} />
-      <PartnersSection />
-      <ShowRedes />
+
+
 
       <WhatsappBtn />
 
