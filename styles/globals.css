@@ -32,6 +32,7 @@ a {
     border-radius: 50%;
     background: #25D366;
     cursor: pointer;
+    font-size: 2rem;
 
     animation: intercom-lightweight-app-launcher 250ms ease;
 }
