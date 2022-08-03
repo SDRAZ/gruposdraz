@@ -5,11 +5,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { PageLayout } from '../components/layouts';
 import { Box, Button, CardMedia, Typography } from '@mui/material';
-import {MainBanner, SectionVideo} from '../components/ui';
+import {MainBanner, SectionVideo, WhatsappBtn} from '../components/ui';
 import { CardList } from '../components/Servicios/CardList';
 import { initialData } from '../data/empresas';
 import { EventosDescuentos } from '../components/eventos/EventosDescuentos';
 import { PartnersSection } from '../components/hotels/Partners';
+import { ShowRedes } from '../components/redes/ShowRedes';
 
 const Home: NextPage = () => {
 
@@ -22,12 +23,13 @@ const Home: NextPage = () => {
       <MainBanner />
       <CardList companies={ initialData.company as any }/>
       <SectionVideo />
-
       <EventosDescuentos image={''} imageName={''} />
       <PartnersSection />
+      <ShowRedes />
+      
+      <WhatsappBtn />
 
       </PageLayout>
-
     </>
   )
 }

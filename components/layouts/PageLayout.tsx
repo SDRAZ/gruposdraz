@@ -1,7 +1,9 @@
 import { FC } from "react";
 import Head from "next/head"
 import { Navbar, SideMenu } from "../ui";
-import { Box } from "@mui/material";
+import { Footer } from "../ui/Footer";
+
+
 
 
 interface Props {
@@ -49,7 +51,7 @@ export const PageLayout:FC<Props> = ({ children, title, pageDescription, imageFu
         <SideMenu />
 
         <main className='main' style={{
-            margin: '70px auto',
+            marginTop: '70px',
             maxWidth: '1920px',
             padding: '0',
         }}>
@@ -57,8 +59,9 @@ export const PageLayout:FC<Props> = ({ children, title, pageDescription, imageFu
         </main>
 
         <footer>
-            {/* { custom footer} */}
+            <Footer />
         </footer>
+
     </>
   )
 }

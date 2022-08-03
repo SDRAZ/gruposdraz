@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { UiContext } from '../../context'
 import NextLink from 'next/link'
-import { AppBar, Toolbar, Typography, Link, Box, Button, IconButton, Badge } from '@mui/material'
+import { AppBar, Toolbar, Typography, Link, Box, Button, IconButton, Badge} from '@mui/material'
 import { FavoriteBorderOutlined, MenuOutlined, SearchOutlined, ShoppingBagOutlined } from '@mui/icons-material'
 
 

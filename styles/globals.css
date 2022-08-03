@@ -21,6 +21,21 @@ a {
   box-sizing: border-box;
 }
 
+.btnwhats{
+  padding: 0.3rem;
+  position: fixed;
+    z-index: 2147483003;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #25D366;
+    cursor: pointer;
+
+    animation: intercom-lightweight-app-launcher 250ms ease;
+}
+
 .wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -45,6 +60,11 @@ a {
 
   .wrapper2{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .btnwhats{
+      bottom: 10px;
+      right: 10px;
   }
   
 }
