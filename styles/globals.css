@@ -9,7 +9,7 @@ body {
 
 head{
   background: #E5F5FF;
-height: fit-content;
+  height: fit-content;
 }
 
 a {
@@ -28,9 +28,22 @@ a {
   grid-auto-rows: minmax(100px, auto);
 }
 
+.wrapper2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: #D1EBFC;
+  border-radius: 50px;
+}
+
 @media (max-width: 900px){
 
   .wrapper{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrapper2{
     grid-template-columns: repeat(1, 1fr);
   }
   

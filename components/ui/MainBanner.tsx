@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import { Box, Typography, Button } from '@mui/material'
 
-const MainBanner = () => {
+export const MainBanner = () => {
 
     const [mobile, setMobile] = useState<boolean | undefined>(true)
 
@@ -70,5 +70,3 @@ const MainBanner = () => {
     </>
   )
 }
-
-export default MainBanner

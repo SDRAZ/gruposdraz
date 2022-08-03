@@ -1,4 +1,4 @@
-import { Box, Card, CardActionArea, CardMedia, Grid, Link } from '@mui/material';
+import { Box, Card, CardActionArea, CardMedia, Grid, Link, Typography } from '@mui/material';
 import NextLink from 'next/link'
 import { FC, useMemo, useState } from 'react'
 import { ICompany } from '../interfaces';
@@ -30,13 +30,23 @@ export const CompanyCard: FC<Props> =({ companies }) => {
       <NextLink href={`/${companies.linkname}`} passHref prefetch={ false }>
         <Link>
             <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'flex-start' , objectFit:'cover' }}>
-              <Box
-              width='100px'
-              sx={{ position:'absolute', margin:'0rem 0rem 1.5rem 1.5rem' }}
-              component="img"
-              src={ companies.logo }
-              alt={companies.name}
-              />
+              
+              { companies.logo
+                ?
+                <Box
+                sx={{ position:'absolute', margin:'0rem 0rem 1.5rem 1.5rem', width:{xs:'35%', md:'30%'} }}
+                component="img"
+                src={ companies.logo }
+                alt={companies.logo}
+                />
+                :
+                <Typography
+                color='#fff' variant='h6'
+                component='h4' fontWeight='600'
+                sx={{ position:'absolute', margin:'0rem 0rem 1.5rem 1.5rem'}}
+                >{ companies.name }
+                </Typography>
+              }
               
               <CardMedia
               width='100%'

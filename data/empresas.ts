@@ -20,7 +20,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456638/web/esdri_pjtcqd.png',
         },
         {
             name: "Night Party Show",
@@ -29,7 +29,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456510/web/party_nbrbah.png',
         },
         {
             name: "Costume Universe",
@@ -38,7 +38,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456510/web/costume_cqqhzj.png',
         },
         {
             name: "Espectáculos",
@@ -47,7 +47,8 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            
+            
         },
         {
             name: "Princesas",
@@ -56,7 +57,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            
         },
         {
             name: "Servicios",
@@ -65,7 +66,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659395970/web/sdkids_2_c8f3yt.webp',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
-            logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659393057/web/esdrikids_tiafbj.png',
+            
         },
     ]
 }
