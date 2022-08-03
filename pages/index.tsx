@@ -9,6 +9,7 @@ import {MainBanner, SectionVideo} from '../components/ui';
 import { CardList } from '../components/Servicios/CardList';
 import { initialData } from '../data/empresas';
 import { EventosDescuentos } from '../components/eventos/EventosDescuentos';
+import { PartnersSection } from '../components/hotels/Partners';
 
 const Home: NextPage = () => {
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <SectionVideo />
 
       <EventosDescuentos image={''} imageName={''} />
+      <PartnersSection />
 
       </PageLayout>
 

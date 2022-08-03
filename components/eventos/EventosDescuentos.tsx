@@ -3,8 +3,8 @@ import { Box, Card, CardActionArea, CardMedia, Grid, Typography } from '@mui/mat
 
 
 interface Props{
-    image: string
-    imageName: string
+    image?: string
+    imageName?: string
 }
 
 export const EventosDescuentos: FC<Props> = ({image, imageName }) => {
