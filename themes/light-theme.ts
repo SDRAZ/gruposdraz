@@ -32,7 +32,8 @@ export const lightTheme = createTheme({
         root: {
           backgroundColor: '#e5f5ff',
           height: 70,
-          marginBottom:'1rem'
+          marginBottom:'1rem',
+          boxShadow: '0px 11px 12px 0px hsl(206deg 100% 61% / 10%)',
         },
       }
     },

@@ -8,6 +8,7 @@ import { Box, Button, CardMedia, Typography } from '@mui/material';
 import {MainBanner, SectionVideo} from '../components/ui';
 import { CardList } from '../components/Servicios/CardList';
 import { initialData } from '../data/empresas';
+import { EventosDescuentos } from '../components/eventos/EventosDescuentos';
 
 const Home: NextPage = () => {
 
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <CardList companies={ initialData.company as any }/>
       <SectionVideo />
 
+      <EventosDescuentos image={''} imageName={''} />
 
       </PageLayout>
 
