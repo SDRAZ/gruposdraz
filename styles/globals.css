@@ -51,6 +51,15 @@ a {
   border-radius: 50px;
 }
 
+.socialicon:hover {
+  color: #04FFF6;
+  transform: scale(1.25);
+}
+
+.btnprimary:hover {
+  transform: scale(1.25);
+}
+
 @media (max-width: 900px){
 
   .wrapper{
