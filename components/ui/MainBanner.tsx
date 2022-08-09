@@ -43,7 +43,7 @@ export const MainBanner = () => {
   
   return (
     <>
-              <Box width="100%"
+          <Box width="100%"
           display={'flex'}
           justifyContent={'center'}
           sx={{
@@ -59,6 +59,7 @@ export const MainBanner = () => {
         
                   <Box marginTop={3}>
                     <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'2rem', paddingRight:'2rem',":hover":{transform: 'scale(1.1)'} }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
+                 
                   </Box>
               </Box>
             </Box>

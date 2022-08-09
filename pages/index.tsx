@@ -26,6 +26,14 @@ const Home: NextPage = () => {
       <SectionVideo />
       <EventosDescuentos image={''} imageName={''} />
 
+      <Box
+      component='img'
+      src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659565022/web/hotels_zqntee.png'} 
+      width='100%'
+      alt='Hotels asociados'
+      sx={{ margin:'0', padding:'0', marginBottom: '-1rem' }}
+      ></Box>
+
 
 
       <WhatsappBtn />

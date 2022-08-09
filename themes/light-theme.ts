@@ -146,7 +146,14 @@ export const lightTheme = createTheme({
           borderRadius: '10px',
         }
       }
-    }
+    },
+    MuiGrid: {
+      styleOverrides: {
+        root: {
+          paddingLeft: '0px'
+        }
+      }
+  }
 }
 }
 );

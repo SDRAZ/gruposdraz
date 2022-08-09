@@ -8,13 +8,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export const ShowRedes = () => {
   return (
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
-      <Box
-      component='img'
-      src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659565022/web/hotels_zqntee.png'} 
-      width='100%'
-      alt='Hotels asociados'
-      sx={{ margin:'0', padding:'0' }}
-      ></Box>
     
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center' sx={{ backgroundColor:'#081142'}} width='100%' >
 

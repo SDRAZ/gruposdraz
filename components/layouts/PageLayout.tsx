@@ -3,11 +3,6 @@ import Head from "next/head"
 import { Navbar, SideMenu } from "../ui";
 import { Footer } from "../ui/Footer";
 import { ShowRedes } from "../redes/ShowRedes";
-import { PartnersSection } from "../hotels/Partners";
-import Box from "@mui/material/Box";
-import { Grid } from "@mui/material";
-
-
 
 
 interface Props {

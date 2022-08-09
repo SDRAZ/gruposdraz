@@ -35,6 +35,17 @@ a {
     animation: intercom-lightweight-app-launcher 250ms ease;
 }
 
+.contactinfo {
+  margin: 0 auto;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.MuiGrid-item{
+  padding-left: 0px;
+}
+
 .wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
