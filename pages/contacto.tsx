@@ -41,7 +41,7 @@ const Contacto = () => {
         xs={ 12 } 
         md={ 5 }
 
-        sx={{ paddingLeft:'0' }}
+        
 
         width='100%' display='flex' flexDirection='column' 
         >

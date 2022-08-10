@@ -16,7 +16,9 @@ export const ShowRedes = () => {
         <Typography color='#fff'>Recibe las mejores noticias antes que todos.</Typography>
     </Box>
     <Box marginTop={ 1 }>
+        <Link href='https://wa.me/5219982396146' target='_blank'>
         <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'3rem', paddingRight:'3rem', ":hover":{transform: 'scale(1.1)'} }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
+        </Link>
     </Box>
 
 
