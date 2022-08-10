@@ -18,7 +18,7 @@ export const SectionVideo = () => {
             </Box>
 
             <Box borderRadius='30px' border='1px solide #D40D84' sx={{marginBottom:{ xs:'1rem', md:'0'}}}>
-                <iframe width="100%" height='350px' src="https://youtu.be/AqeYwK5xnME" title="YouTube esdraz video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/AqeYwK5xnME" title="YouTube video player"></iframe>
             </Box>
         </Box>
     </Grid>
