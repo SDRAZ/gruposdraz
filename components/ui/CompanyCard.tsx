@@ -1,6 +1,7 @@
+import { FC, useEffect, useMemo, useState } from 'react'
+
 import { Box, Card, CardActionArea, CardMedia, Grid, Link, Typography } from '@mui/material';
 import NextLink from 'next/link'
-import { FC, useMemo, useState } from 'react'
 import { ICompany } from '../interfaces';
 
 interface Props {
@@ -9,13 +10,32 @@ interface Props {
 
 export const CompanyCard: FC<Props> =({ companies }) => {
   
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
 
-  const productImage = useMemo(()=>{
-      return isHovered
-      ? `${ companies.images[1] }`
-      : `${ companies.images[0] }`
-  }, [isHovered, companies.images])
+  // const productImage = useMemo(()=>{
+  //     return isHovered
+  //     ? `${ companies.images[1] }`
+  //     : `${ companies.images[0] }`
+  // }, [isHovered, companies.images])
+
+
+  const [count, setCount] = useState(0);
+
+  const imageArray = companies.images
+
+  useEffect(() => {
+
+    const timerId = setInterval(() => {
+      setCount(count => count + 1);
+    }, 4000);
+
+    return () => clearInterval(timerId);
+  }, []);
+
+  const image = imageArray[count % imageArray.length];
+  
+
+
 
   return (
     <Grid   item 
@@ -23,8 +43,7 @@ export const CompanyCard: FC<Props> =({ companies }) => {
             sm={ 6 } 
             md={ 4 }
     key={ companies.name }
-    onMouseEnter={ () => setIsHovered(true) }
-    onMouseLeave={ () => setIsHovered(false) }
+
     >
       <Card sx={{ borderRadius:'0px 50px 0px 50px', maxHeight:'400px', width:'fit-content'}}>
       <NextLink href={`/${companies.linkname}`} passHref prefetch={ false }>
@@ -51,7 +70,7 @@ export const CompanyCard: FC<Props> =({ companies }) => {
               <CardMedia
               width='100%'
               component="img"
-              image={ productImage }
+              image={ image }
               alt={companies.name}
               >
               </CardMedia>

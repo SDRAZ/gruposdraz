@@ -28,7 +28,7 @@ export const EventosDescuentos: FC<Props> = ({image, imageName }) => {
             <Card sx={{ borderRadius:'0px 50px 0px 50px', width:'fit-content'}}>
                 <CardMedia
                         component="img"
-                        image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659495342/web/party_sz0vs9.jpg'}
+                        image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660163703/web/Card_bannerroller_b4xlng.jpg'}
                         alt={'imageName'}
                         >
                 </CardMedia>
@@ -47,7 +47,7 @@ export const EventosDescuentos: FC<Props> = ({image, imageName }) => {
             <Card sx={{ borderRadius:'0px 50px 0px 50px', width:'fit-content'}}>
                 <CardMedia
                         component="img"
-                        image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659495028/web/evento_zqqhoi.jpg'}
+                        image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660163702/web/Card_banner_casa_bbt2fh.jpg'}
                         alt={'imageName'}
                         >
                 </CardMedia>
