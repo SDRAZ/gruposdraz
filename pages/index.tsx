@@ -21,13 +21,11 @@ const Home: NextPage = () => {
 
       <Box
       component='img'
-      src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659565022/web/hotels_zqntee.png'} 
+      src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660165133/web/hotels_ztxlmc.png'} 
       width='100%'
       alt='Hotels asociados'
       sx={{ margin:'0', padding:'0', marginBottom: '-1rem' }}
       ></Box>
-
-
 
       <WhatsappBtn />
 

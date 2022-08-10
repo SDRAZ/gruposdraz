@@ -7,11 +7,12 @@ const imageArray = ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v16597158
 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/mickey_mrb6el.jpg',
 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/GAGA_hict91.jpg'];
 
-const imageArrayMobile = ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719808/web/princesas_mobile_jbprmb.jpg',
-'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384709/web/dino_mobile_esvxx0.webp',
-'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/pitbull_mobile_oyhfbq.jpg',
-'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/mickey_mobile_oapz3e.jpg',
-'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/gaga_mobile_ubr2ly.jpg'];
+const imageArrayMobile = ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_03_nnyy6f.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164355/web/PORTADA_08_qona5y.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_06_m6a6op.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_05_gabal2.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_04_aur1wl.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_02_lpfhez.jpg'];
 
 export const MainBanner = () => {
 

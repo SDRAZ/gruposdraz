@@ -12,7 +12,7 @@ export const EventosDescuentos: FC<Props> = ({image, imageName }) => {
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
 
         <Box textAlign='center' margin={6} sx={{ margin:{xs:'7rem 1rem 2rem 1rem', md:'10rem 1rem 3rem 1rem'}}}>
-        <Typography variant='h4' component='h2' fontWeight={700} >Próximos eventos y descuentos</Typography>
+        <Typography variant='h4' component='h2' fontWeight={700} >¡Lo más nuevo!</Typography>
         </Box>
 
         <Grid container spacing={3} maxWidth='1200px' padding='1rem' marginBottom={10}>
