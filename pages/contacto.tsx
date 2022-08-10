@@ -3,7 +3,7 @@ import { Box, Button, Grid, TextField, Typography } from '@mui/material';
 import { PageLayout } from '../components/layouts';
 import { ButtonPrimary, WhatsappBtn } from '../components/ui';
 
-import { ValidationError,useForm } from '@formspree/react';
+import { ValidationError, useForm } from '@formspree/react';
 
 const handleContactUsRedirect = () => {
     setTimeout(() => {
@@ -12,7 +12,7 @@ const handleContactUsRedirect = () => {
     })
 }
 
-const contacto = () => {
+const Contacto = () => {
 
     const [state, handleSubmit] = useForm('xvoyogoy');
   if (state.succeeded) {
@@ -165,4 +165,4 @@ const contacto = () => {
   )
 }
 
-export default contacto;
+export default Contacto;
