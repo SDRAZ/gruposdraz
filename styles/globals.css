@@ -46,6 +46,10 @@ a {
   padding-left: 0px;
 }
 
+.gradient {
+  background: linear-gradient(180deg, rgba(3, 7, 70, 0) 20.74%, #030746 100%);
+}
+
 .wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -21,6 +21,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659396101/web/ESDRIKIDS-1_jizvdq.webp',
             ],
             logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456638/web/esdri_pjtcqd.png',
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660254386/web/sdri_hhaeq7.png',
         },
         {
             name: "Night Party Show",
@@ -30,6 +31,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/night-party-show_mifleb.jpg',
             ],
             logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456510/web/party_nbrbah.png',
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660256859/web/night_aqzmkd.png',
         },
         {
             name: "Costume Universe",
@@ -40,6 +42,8 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161860/web/COSTUME_UNIVERSE_01_jnwogi.jpg',
             ],
             logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456510/web/costume_cqqhzj.png',
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660254386/web/sdri_hhaeq7.png',
+
         },
         {
             name: "Espectáculos",
@@ -48,6 +52,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/familia-madrigal_w15abn.jpg',
             ],
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660256623/web/espec_2x_nzjgge.png',
             
             
         },
@@ -58,6 +63,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/princess-portada_eiwwsd.jpg',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/princess-portada_eiwwsd.jpg',
             ],
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660256623/web/princess_2x_dviivy.png',
             
         },
         {
@@ -67,6 +73,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/SERVICIOS_02_gjue3q.jpg',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/SERVICIOS_03_wpii7s.jpg',
             ],
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660254386/web/sdri_hhaeq7.png',
             
         },
     ]
