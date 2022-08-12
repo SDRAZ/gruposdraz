@@ -23,7 +23,7 @@ export const ShowCard: FC<Props> =({ show }) => {
     return () => clearInterval(timerId);
   }, []);
 
-  const image = imageArray[count % imageArray.length];
+  // const image = imageArray[count % imageArray.length];
   
 
 
