@@ -21,6 +21,19 @@ a {
   box-sizing: border-box;
 }
 
+::selection {
+  background: #04FFF6;
+  color: black;
+
+}
+
+/* Firefox */
+::-moz-selection {
+  background: #04FFF6;
+  color: black;
+}
+
+
 .btnwhats{
   padding: 0.3rem;
   position: fixed;
@@ -53,17 +66,24 @@ a {
 .wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 40px;
   grid-auto-rows: minmax(100px, auto);
 }
 
 .wrapper2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
   grid-auto-rows: minmax(100px, auto);
   background-color: #D1EBFC;
   border-radius: 50px;
+}
+
+.wrapper3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .socialicon:hover {
@@ -82,6 +102,10 @@ a {
   }
 
   .wrapper2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrapper3{
     grid-template-columns: repeat(1, 1fr);
   }
 

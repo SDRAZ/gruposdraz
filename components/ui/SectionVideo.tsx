@@ -4,7 +4,6 @@ import React from 'react'
 export const SectionVideo = () => {
   return (
     <Grid
-
         marginTop='8rem'
         display='flex'
         alignItems='center'

@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { Box, Typography, Button } from '@mui/material'
+import { Box, Typography, Button, Link } from '@mui/material'
 
 const imageArray = ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg',
 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384131/web/dino_desktop_ygkqdf.jpg',
@@ -59,8 +59,10 @@ export const MainBanner = () => {
                   <Typography variant='h5' component={'h4'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'34px'} }} marginTop='1rem' >15 años organizando los mejores espectáculos del sureste mexicano. </Typography>
         
                   <Box marginTop={3}>
-                    <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'2rem', paddingRight:'2rem',":hover":{transform: 'scale(1.1)'} }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
-                 
+                    <Link href='https://wa.me/5219982396146' target='_blank'>
+                      <Button sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', paddingLeft:'3rem', paddingRight:'3rem', ":hover":{transform: 'scale(1.1)'} }}><Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Cotizar show</Typography></Button>
+                    </Link>
+                    
                   </Box>
               </Box>
             </Box>
