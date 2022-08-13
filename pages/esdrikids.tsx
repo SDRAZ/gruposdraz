@@ -11,7 +11,7 @@ import DoneIcon from '@mui/icons-material/Done';
 export const esdrikids = () => {
   return (
     <>
-    <PageLayout title={'Contacto'} pageDescription={'Contacta al GRUPO ESDRAZ.'} 
+    <PageLayout title={'EsdriKids'} pageDescription={'EsdriKids'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
         <Banner imageMobile={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/mickey_mobile_oapz3e.jpg'}
         image={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/mickey_mrb6el.jpg'} />
