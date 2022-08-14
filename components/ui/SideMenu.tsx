@@ -30,7 +30,7 @@ export const SideMenu = () => {
             
             <List>
                 <ListItem button
-                onClick={ () => navigateTo('/Shows')}
+                onClick={ () => navigateTo('/esdrikids')}
                 >
                     <ListItemIcon>
                         <TheaterComedyOutlinedIcon/>
@@ -39,7 +39,7 @@ export const SideMenu = () => {
                 </ListItem>
 
                 <ListItem button
-                 onClick={ () => navigateTo('/Servicios')}>
+                 onClick={ () => navigateTo('/servicios')}>
                     <ListItemIcon>
                         <CelebrationOutlinedIcon/>
                     </ListItemIcon>
@@ -47,7 +47,7 @@ export const SideMenu = () => {
                 </ListItem>
 
                 <ListItem button
-                onClick={ () => navigateTo('/Nosotros')}
+                onClick={ () => navigateTo('/nosotros')}
                 >
                     <ListItemIcon>
                         <InfoOutlinedIcon/>
@@ -56,7 +56,7 @@ export const SideMenu = () => {
                 </ListItem>
 
                 <ListItem button
-                onClick={ () => navigateTo('/Contacto')}
+                onClick={ () => navigateTo('/contacto')}
                 >
                     <ListItemIcon>
                         <ContactPhoneOutlinedIcon />

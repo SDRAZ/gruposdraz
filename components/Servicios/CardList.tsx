@@ -15,18 +15,22 @@ export const CardList: FC<Props> = ({ companies }) => {
         <Typography variant='h6' component='p' marginTop={2} lineHeight='20px' >Conoce nuestras diferentes empresas especializadas en cada rama del entretenimiennto de eventos.</Typography>    
     </Box>
 
-    <Grid container  
-            xs={ 12 } 
-            sm={ 12 } 
-            md={ 8 }
-            spacing={ 4 } width='100%'>
-
+    <Grid container 
+    spacing={ 4 }
+    sx={{ width:{ xs:'100%', md:'800px', lg:'1000px'} }}
+            >
         {
             companies.map( company => (
+              <Grid item xs={ 6 } sm={ 6 } md={ 4 } lg={ 4 }
+              display='flex'
+              alignItems='center'
+              justifyContent='center'
+              key={ company.name }
+              >
                 <CompanyCard
-                    key={ company.name }
                     companies={ company }
                 />
+              </Grid>
             ))
         }
     </Grid>

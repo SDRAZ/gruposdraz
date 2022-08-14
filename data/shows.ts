@@ -1,6 +1,6 @@
 interface SeedShow {
     name: string;
-    image?: string[];
+    image: string[];
     images?: string[];
     icon?: string;
     linkname?: string;
@@ -31,7 +31,8 @@ export const initialDataShows: SeedData = {
             name: "Niñas",
             linkname: 'ninas',
             image: [
-                'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg'
+                'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg',
+                'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164355/web/PORTADA_08_qona5y.jpg'
             ],
             shows:[{
                 name: "Dra. Juguetes",

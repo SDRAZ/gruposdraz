@@ -38,20 +38,18 @@ export const CompanyCard: FC<Props> =({ companies }) => {
 
 
   return (
-    <Grid   item 
-            xs={ 6 } 
-            sm={ 6 } 
-            md={ 4 }
-    key={ companies.name }
-
+    <Grid 
+    item 
+    display='flex'
+    justifyItems='center'
     >
-      <Card sx={{ borderRadius:'0px 50px 0px 50px', maxHeight:'400px', width:'fit-content'}}>
+      <Card sx={{ borderRadius:'0px 50px 0px 50px', maxHeight:'600px', width:'fit-content'}}>
       <NextLink href={`/${companies.linkname}`} passHref prefetch={ false }>
         <Link>
             <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'flex-start' , objectFit:'cover' }}>
 
                 <Box display='flex' flexDirection='row' alignItems='center' zIndex='99'
-                sx={{ position:'absolute', margin:{xs:'0rem 0rem 1rem 1rem', md:'0rem 0rem 2rem 2rem'}, width:{xs:'100%', md:'100%'} }}>
+                sx={{ position:'absolute', margin:{xs:'0rem 0rem 1rem 1.5rem', md:'0rem 0rem 1rem 2rem'}, width:{xs:'100%', md:'100%'} }}>
                   
                   <Box
                   marginRight={ 1 }
@@ -64,11 +62,20 @@ export const CompanyCard: FC<Props> =({ companies }) => {
                   <Typography
                   color='#fff' variant='h6'
                   component='h4' fontWeight='600'
-                  
                   >{ companies.name }
                   </Typography>
 
                 </Box>
+                <Box>
+                  <Box  width='100%' height='100%' position='absolute' className='gradient' >
+                  </Box>
+                  <CardMedia
+                  width='100%'
+                  component="img"
+                  image={ image }
+                  alt={companies.name}
+                  ></CardMedia>
+               </Box>
               
               {/* { companies.logo
                 ?
@@ -113,16 +120,7 @@ export const CompanyCard: FC<Props> =({ companies }) => {
                 </Typography>
               </Box>
                */}
-               <Box>
-                <Box  width='100%' height='100%' position='absolute' className='gradient' >
-                </Box>
-                <CardMedia
-                width='100%'
-                component="img"
-                image={ image }
-                alt={companies.name}
-                ></CardMedia>
-               </Box>
+
             </CardActionArea>
         </Link>
       </NextLink>

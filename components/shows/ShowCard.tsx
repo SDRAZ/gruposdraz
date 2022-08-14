@@ -24,9 +24,6 @@ export const ShowCard: FC<Props> =({ show }) => {
   }, []);
 
   // const image = imageArray[count % imageArray.length];
-  
-
-
 
   return (
     <Grid   item 
@@ -35,10 +32,9 @@ export const ShowCard: FC<Props> =({ show }) => {
             md={ 4 }
             lg={ 3 }
     key={ show.name }
-
     >
       <Card sx={{ borderRadius:'21% 21% 21% 21%', maxHeight:'400px', width:'fit-content'}}>
-      <NextLink href={`esdrikids/${show.linkname}`} passHref prefetch={ false }>
+      <NextLink href={`/${show.linkname}`} passHref prefetch={ false }>
         <Link>
             <CardActionArea sx={{ display:'flex', alignItems:'flex-start', justifyContent:'center' , objectFit:'cover' }}>
 
@@ -60,6 +56,7 @@ export const ShowCard: FC<Props> =({ show }) => {
                 alt={show.name}
                 ></CardMedia>
                </Box>
+               
             </CardActionArea>
         </Link>
       </NextLink>

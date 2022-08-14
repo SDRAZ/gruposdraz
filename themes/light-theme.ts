@@ -86,6 +86,8 @@ export const lightTheme = createTheme({
           '@media (max-width:600px)': {
             fontSize: '1rem',
           }
+        },'@media (max-width:300px)': {
+          fontSize: '0.8rem',
         },
         subtitle1: {
           fontSize: '1.125rem',
