@@ -84,19 +84,19 @@ export const lightTheme = createTheme({
         h6: {
           fontSize: '1.5rem',
           '@media (max-width:600px)': {
-            fontSize: '1rem',
+            fontSize: '1.3rem',
           }
-        },'@media (max-width:300px)': {
+        },'@media (width:300px)': {
           fontSize: '0.8rem',
         },
         subtitle1: {
-          fontSize: '1.125rem',
+          fontSize: '1.3rem',
           fontWeight: 600,
           '@media (max-width:900px)': {
             fontSize: '1rem',
           },
           '@media (max-width:375px)': {
-            fontSize: '0.875rem',
+            fontSize: '0.7rem',
           }
           ,
           lineHeight: 'normal'

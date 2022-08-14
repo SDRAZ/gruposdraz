@@ -11,7 +11,7 @@ const Ninas = () => {
   
   return (
     <PageLayout title={'Shows para Niñas'} pageDescription={'Shows de EsdriKids para niñas'} 
-    imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
+    imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660518776/web/showsninas_kl7acp.jpg'}>
     
     <BannerShows 
       imageMobile={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719808/web/princesas_mobile_jbprmb.jpg' }

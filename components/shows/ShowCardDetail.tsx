@@ -10,13 +10,13 @@ export const ShowCardDetail: FC<Props> =({ show }) => {
 
   return (
     <Grid   item 
-            xs={ 6 } 
+            xs={ 12 } 
             sm={ 6 } 
             md={ 3 }
-
+    
     key={ show.name }
     >
-      <Card sx={{ borderRadius:'0% 10% 0% 10%', maxHeight:'400px', width:'fit-content'}}>
+      <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
 
             <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'center' , objectFit:'cover' }}>
 
@@ -29,15 +29,19 @@ export const ShowCardDetail: FC<Props> =({ show }) => {
                   />
                   
 
-    º             <Box width='100%' height='25%' position='absolute' className='gradient2' ></Box>
+                  <Box width='100%' height='25%' position='absolute' className='gradient2' display='flex' alignItems='center'
+                  justifyContent='center'>
                   <Box
-                    sx={{ position:'absolute', margin:{ xs:'0rem 0rem 1rem 0rem', sm:'0rem 0rem 1rem 0rem',  md:'0rem 0rem 1rem 0rem'}, width:{xs:'100%', md:'100%' } }}>
+                    sx={{ position:'absolute', width:{xs:'100%', md:'100%' } }}>
                     <Typography
                     textAlign='center'
-                    color='#fff' variant='h6'
+                    color='#fff' 
+                    variant='h6'
                     component='h4' fontWeight='800'
                     >{ show.name }
                     </Typography>
+                  </Box>
+
                   </Box>
                   
              
