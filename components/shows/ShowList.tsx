@@ -18,10 +18,8 @@ export const ShowList: FC<Props> = ({ shows }) => {
     </Box>
 
     <Grid container  
-            xs={ 12 } 
-            sm={ 12 } 
-            md={ 8 }
-            spacing={ 4 } width='100%'>
+           
+            spacing={ 4 } maxWidth='1000px' padding='1rem' >
 
         {
             shows.map( show => (

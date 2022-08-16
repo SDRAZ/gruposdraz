@@ -13,7 +13,9 @@ interface SeedData {
     videojuegos: SeedShowDetail[],
     mixto: SeedShowDetail[],
     artistas: SeedShowDetail[],
-    cabezones: SeedShowDetail[]
+    cabezones: SeedShowDetail[],
+    espectaculos: SeedShowDetail[],
+    estrenos: SeedShowDetail[]
 }
 
 export const showsData: SeedData = {
@@ -354,6 +356,36 @@ export const showsData: SeedData = {
     {
         name: "Michael Jackson",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/intensamente_grxlya.jpg'
+    }
+    ],
+    espectaculos: [ {
+        name: "Encanto",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dra-juguetes_sum7om.jpg'
+    },
+    {
+        name: "Fantasy show",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dora_udrlig.jpg'
+    },
+    {
+        name: "Aladdín",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },
+    {
+        name: "La Sirenita",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502812/web/kitty_owmqy7.jpg'
+    }
+    ],
+    estrenos: [ {
+        name: "Encanto",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dra-juguetes_sum7om.jpg'
+    },
+    {
+        name: "Muppet Babies",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dora_udrlig.jpg'
+    },
+    {
+        name: "Luli Pampin",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
     }
     ]
 }

@@ -6,13 +6,13 @@ interface Props {
   show: IShowDetail
 }
 
-export const ShowCardDetail: FC<Props> =({ show }) => {
+export const ShowCardDetailBig: FC<Props> =({ show }) => {
 
   return (
     <Grid   item 
             xs={ 12 } 
             sm={ 6 } 
-            md={ 3 }
+            md={ 6 }
     
     key={ show.name }
     >
@@ -35,7 +35,7 @@ export const ShowCardDetail: FC<Props> =({ show }) => {
                     <Typography
                     textAlign='center'
                     color='#fff' 
-                    variant='h6'
+                    variant='h5'
                     component='h4' fontWeight='800'
                     >{ show.name }
                     </Typography>

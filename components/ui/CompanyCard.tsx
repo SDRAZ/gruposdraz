@@ -39,7 +39,8 @@ export const CompanyCard: FC<Props> =({ companies }) => {
 
   return (
     <Grid 
-    item 
+    item
+    xs={ 12 } sm={ 6 } md={ 4 } lg={ 4 }
     display='flex'
     justifyItems='center'
     >

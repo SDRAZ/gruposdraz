@@ -42,7 +42,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161860/web/COSTUME_UNIVERSE_01_jnwogi.jpg',
             ],
             logo: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659456510/web/costume_cqqhzj.png',
-            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660254386/web/sdri_hhaeq7.png',
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660607525/web/costume_ltghpd.png',
 
         },
         {
@@ -73,7 +73,7 @@ export const initialData: SeedData = {
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/SERVICIOS_02_gjue3q.jpg',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/SERVICIOS_03_wpii7s.jpg',
             ],
-            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660254386/web/sdri_hhaeq7.png',
+            icon: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660607525/web/servicios_x6qjb8.png',
             
         },
     ]

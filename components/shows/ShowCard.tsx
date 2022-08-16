@@ -31,6 +31,9 @@ export const ShowCard: FC<Props> =({ show }) => {
             sm={ 4 } 
             md={ 4 }
             lg={ 3 }
+
+            alignItems='center'
+            justifyContent='center'
     key={ show.name }
     >
       <Card sx={{ borderRadius:'21% 21% 21% 21%', maxHeight:'400px', width:'fit-content'}}>
