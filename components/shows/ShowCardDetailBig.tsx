@@ -13,12 +13,10 @@ export const ShowCardDetailBig: FC<Props> =({ show }) => {
             xs={ 12 } 
             sm={ 6 } 
             md={ 6 }
-    
     key={ show.name }
     >
       <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
-
-            <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'center' , objectFit:'cover' }}>
+        <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'center' , objectFit:'cover' }}>
 
                   <Box
                     component='img'
@@ -43,8 +41,7 @@ export const ShowCardDetailBig: FC<Props> =({ show }) => {
 
                   </Box>
 
-            </CardActionArea>
-
+        </CardActionArea>
       </Card>
     </Grid>
   )

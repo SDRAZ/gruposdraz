@@ -9,7 +9,7 @@ import { Grid, Box, Typography } from '@mui/material';
 const Ninas = () => {
   
   return (
-    <PageLayout title={'Shows para Niñas'} pageDescription={'Shows de EsdriKids para niñas'} 
+    <PageLayout title={'Servicos | Grupo Esdraz'} pageDescription={'Servicos del Grupo Esdraz'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
     
     <BannerShows 
