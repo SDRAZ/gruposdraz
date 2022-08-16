@@ -18,7 +18,7 @@ const Ninas = () => {
       image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg' }
       name={'Niñas'} />
 
-      <ShowListDetail shows={ showsData.ninas as any }></ShowListDetail>
+      <ShowListDetail shows={showsData.ninas as any} color={'rgba(212, 13, 132, 0.9);'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>

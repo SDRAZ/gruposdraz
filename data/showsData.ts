@@ -15,7 +15,9 @@ interface SeedData {
     artistas: SeedShowDetail[],
     cabezones: SeedShowDetail[],
     espectaculos: SeedShowDetail[],
-    estrenos: SeedShowDetail[]
+    estrenos: SeedShowDetail[],
+    servicios: SeedShowDetail[],
+    princesas: SeedShowDetail[]
 }
 
 export const showsData: SeedData = {
@@ -360,11 +362,11 @@ export const showsData: SeedData = {
     ],
     espectaculos: [ {
         name: "Encanto",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dra-juguetes_sum7om.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/familia-madrigal_w15abn.jpg'
     },
     {
         name: "Fantasy show",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dora_udrlig.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg'
     },
     {
         name: "Aladdín",
@@ -385,6 +387,71 @@ export const showsData: SeedData = {
     },
     {
         name: "Luli Pampin",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    }
+    ],
+    servicios: [ {
+        name: "Miniferia",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dra-juguetes_sum7om.jpg'
+    },
+    {
+        name: "Pool Party",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dora_udrlig.jpg'
+    },
+    {
+        name: "Caballetes",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },
+    {
+        name: "Servicio de espuma",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Rally",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Pinta caritas",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    }
+    ],
+    princesas: [ {
+        name: "Bella",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dra-juguetes_sum7om.jpg'
+    },
+    {
+        name: "Cenicienta",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502813/web/dora_udrlig.jpg'
+    },
+    {
+        name: "Aurora",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },
+    {
+        name: "Ariel",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Elsa",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Rapunzel",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },
+    {
+        name: "Tiana",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Moana",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Jazmín",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Pocahontas",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Raya",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+    },    {
+        name: "Mérida",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
     }
     ]

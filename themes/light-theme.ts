@@ -74,11 +74,11 @@ export const lightTheme = createTheme({
           }
         },
         h5: {
-          fontSize: '1.9rem',
+          fontSize: '2rem',
           '@media (max-width:768px)': {
-            fontSize: '1.5rem',
+            fontSize: '1.6rem',
             '@media (max-width:600px)': {
-              fontSize: '1.3rem',
+              fontSize: '1.5rem',
             }
           },
         h6: {

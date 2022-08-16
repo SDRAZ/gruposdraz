@@ -3,10 +3,11 @@ import { Box, Card, CardActionArea, Grid, Typography } from '@mui/material';
 import { IShowDetail } from '../interfaces';
 
 interface Props {
-  show: IShowDetail
+  show: IShowDetail,
+  color: string,
 }
 
-export const ShowCardDetail: FC<Props> =({ show }) => {
+export const ShowCardDetail: FC<Props> =({ show, color }) => {
 
   return (
     <Grid   item 
@@ -28,7 +29,7 @@ export const ShowCardDetail: FC<Props> =({ show }) => {
                     alt={ show.name }
                   />
                   
-                  <Box width='100%' height='25%' position='absolute' className='gradient2' display='flex' alignItems='center'
+                  <Box width='100%' height='25%' position='absolute' sx={{ backgroundColor:`${ color }` }} display='flex' alignItems='center'
                   justifyContent='center'>
                   <Box
                     sx={{ position:'absolute', width:{xs:'100%', md:'100%' } }}>

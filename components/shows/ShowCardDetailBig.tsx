@@ -28,7 +28,7 @@ export const ShowCardDetailBig: FC<Props> =({ show }) => {
                     alt={ show.name }
                   />
                   
-                  <Box width='100%' height='25%' position='absolute' className='gradient2' display='flex' alignItems='center'
+                  <Box width='100%' height='25%' position='absolute' sx={{ backgroundColor:'rgba(3, 7, 70, 0.9)' }} display='flex' alignItems='center'
                   justifyContent='center'>
                   <Box
                     sx={{ position:'absolute', width:{xs:'100%', md:'100%' } }}>

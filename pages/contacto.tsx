@@ -29,9 +29,6 @@ const Contacto = () => {
 
     <Grid
     container  
-    xs={ 12 } 
-    sm={ 12 } 
-    md={ 10 }
     width='100%'
 
     justifyContent='space-between'

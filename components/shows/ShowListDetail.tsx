@@ -5,9 +5,10 @@ import { ShowCardDetail } from '../shows';
 
 interface Props {
     shows: IShowDetail[]; 
+    color: string;
 }
 
-export const ShowListDetail: FC<Props> = ({ shows }) => {
+export const ShowListDetail: FC<Props> = ({ shows, color }) => {
   return (
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
       <Box textAlign='center' margin={6} sx={{ margin:{xs:'0rem 1rem 2rem 1rem', md:'6rem 1rem 3rem 1rem'}}}>
@@ -25,6 +26,7 @@ export const ShowListDetail: FC<Props> = ({ shows }) => {
                 <ShowCardDetail
                     key={ show.name }
                     show={ show }
+                    color={ color }
                 />
             ))
         }
