@@ -370,7 +370,7 @@ export const showsData: SeedData = {
     },
     {
         name: "Aladdín",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660502814/web/rositafresita_alwmpu.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229365/web/shows_banners/CEL_ESPECTACULOS_nrkdf9.jpg'
     },
     {
         name: "La Sirenita",

@@ -4,18 +4,20 @@ import { BannerShows, WhatsappBtn } from '../components/ui'
 import { showsData } from '../data/showsData';
 import { ShowListDetailBig } from '../components/shows';
 import { Box, Card, CardActionArea, Grid, Typography } from '@mui/material';
+import { BannersData } from '../data/bannersData';
 
 
 const Ninas = () => {
+
+      const ImageDesktop = BannersData.dinosaurios[0].desktop
+      const ImageMobile = BannersData.dinosaurios[0].mobile
+      const BannerName = BannersData.dinosaurios[0].name
   
   return (
     <PageLayout title={'Grupo Esdraz | Dinosaurios'} pageDescription={'Dinosaurios del Grupo Esdraz'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg'}>
     
-    <BannerShows 
-      imageMobile={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384709/web/dino_mobile_esvxx0.webp' }
-      image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384131/web/dino_desktop_ygkqdf.jpg' }
-      name={ 'Dinosaurios' } />
+    <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
 
     <Grid item={true}
             xs={ 12 } 

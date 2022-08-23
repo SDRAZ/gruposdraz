@@ -1,5 +1,7 @@
 import {useState, useEffect, FC} from 'react'
 import { Box, Typography, Button, Link } from '@mui/material'
+import { SeedShowDetail } from '../interfaces';
+import { ImageError } from 'next/dist/server/image-optimizer';
 
 // const imageArray = ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg',
 // 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659384131/web/dino_desktop_ygkqdf.jpg',
@@ -15,27 +17,31 @@ import { Box, Typography, Button, Link } from '@mui/material'
 // 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660164354/web/PORTADA_02_lpfhez.jpg'];
 
 interface Props {
-  image: string,
-  imageMobile: string
-  name: string
+  data?: SeedShowDetail[];
+  name: string,
+  imageMob: string[],
+  imageBanner: string[],
 }
 
-export const BannerShows:FC<Props> = ({ imageMobile, image, name  }) => {
+export const BannerShows:FC<Props> = ({ data, imageBanner, imageMob, name  }) => {
 
     const [mobile, setMobile] = useState<boolean | undefined>(true)
 
-    // const [count, setCount] = useState(0);
-    // useEffect(() => {
-    //   const timerId = setInterval(() => {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+      const timerId = setInterval(() => {
         
-    //     setCount(count => count + 1);
-    //   }, 4000);
+        setCount(count => count + 1);
+      }, 4000);
   
-    //   return () => clearInterval(timerId);
-    // }, []);
+      return () => clearInterval(timerId);
+    }, []);
 
-    // const image = imageArray[count % imageArray.length];
-    // const imageMobile = imageArrayMobile[count % imageArrayMobile.length];
+    // const desktop = data.filter(image => image.desktop)
+    // const mobileData = data.filter(image => image.mobile)
+
+    const image = imageBanner[count % imageBanner.length];
+    const imageMobile = imageMob[count % imageMob.length];
     
   useEffect(() => {
     const updateMobile = () => {
@@ -48,6 +54,7 @@ export const BannerShows:FC<Props> = ({ imageMobile, image, name  }) => {
     }
   }, [])
   
+
   return (
     <>
           <Box width="100%"
@@ -59,9 +66,12 @@ export const BannerShows:FC<Props> = ({ imageMobile, image, name  }) => {
            }}
           >
 
-            <Box maxWidth='1920px' sx={{zIndex:'2', position:'absolute', padding:{ xs:'1rem', md:'2rem'}, marginTop:{ xs:'8rem', md:'0'} }} className='wrapper' >
+            <Box maxWidth='1920px' 
+            sx={{zIndex:'2', position:'absolute', padding:{ xs:'1rem', md:'2rem'}, marginTop:{ xs:'8rem', md:'0'} }} 
+            className='wrapper'>
+
               <Box color='#FAD531' maxWidth='800px' sx={{ textAlign:{xs:'center', md:'center'}, width:{xs:'100%', md:'800px'} }}>
-                <Typography fontWeight={800} variant='h3' component='h1' >{ name }</Typography>
+                <Typography fontWeight={800} variant='h2' component='h1'>{ name }</Typography>
               </Box>
             </Box>
 

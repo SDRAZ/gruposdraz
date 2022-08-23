@@ -4,18 +4,20 @@ import { BannerShows, WhatsappBtn } from '../components/ui'
 import { showsData } from '../data/showsData';
 import { ShowListDetail } from '../components/shows';
 import { Grid, Box, Typography } from '@mui/material';
+import { BannersData } from '../data/bannersData';
 
 
 const Ninas = () => {
+
+  const ImageDesktop = BannersData.princesas[0].desktop
+  const ImageMobile = BannersData.princesas[0].mobile
+  const BannerName = BannersData.princesas[0].name
   
   return (
     <PageLayout title={'Shows de Princesas Disney'} pageDescription={'Shows de EsdriKids con Princesas Disney'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/princess-portada_eiwwsd.jpg'}>
     
-    <BannerShows 
-      imageMobile={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719808/web/princesas_mobile_jbprmb.jpg' }
-      image={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/pricesas_ho9bvk.jpg' }
-      name={ 'Princesas' } />
+    <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
 
               <Grid item={true}
                 sx={{ marginTop:{ xs:'0rem', md:'3rem'} }}

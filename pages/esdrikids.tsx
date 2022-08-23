@@ -1,20 +1,34 @@
 import React from 'react'
 import { PageLayout } from '../components/layouts';
-import { Banner, WhatsappBtn } from '../components/ui';
+import { Banner, BannerShows, WhatsappBtn } from '../components/ui';
 
 import { Box, Grid, ListItem, Typography, ListItemIcon, ListItemText, List } from '@mui/material';
 import { ShowList } from '../components/shows';
 import { initialDataShows } from '../data/shows';
 
 import DoneIcon from '@mui/icons-material/Done';
+import { MainBannerShows } from '../components/ui';
+import { BannersData } from '../data/bannersData';
+import { useState, useEffect } from 'react';
 
 export const esdrikids = () => {
+
+    const ImageDesktop = BannersData.esdrikids[0].desktop
+    const ImageMobile = BannersData.esdrikids[0].mobile
+    const BannerName = BannersData.esdrikids[0].name
+
+    // console.log( BannersData.esdrikids[0].desktop );
+
   return (
     <>
     <PageLayout title={'EsdriKids'} pageDescription={'EsdriKids'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
-        <Banner imageMobile={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/mickey_mobile_oapz3e.jpg'}
-        image={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/mickey_mrb6el.jpg'} />
+        {/* <Banner imageMobile={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659719807/web/mickey_mobile_oapz3e.jpg'}
+        image={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659715889/web/mickey_mrb6el.jpg'} /> */}
+
+        <BannerShows name={ BannerName }
+        imageMob={ ImageMobile }
+        imageBanner={ ImageDesktop }  />
 
         <Grid container display='flex' justifyContent='center' alignItems='center'>
 
