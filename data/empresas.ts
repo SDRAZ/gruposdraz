@@ -25,7 +25,7 @@ export const initialData: SeedData = {
         },
         {
             name: "Night Party Show",
-            linkname: 'nightpartyshow',
+            linkname: 'nightparty',
             images: [
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/night-party-show_mifleb.jpg',
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/night-party-show_mifleb.jpg',
