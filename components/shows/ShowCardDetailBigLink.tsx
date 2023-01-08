@@ -7,7 +7,7 @@ interface Props {
   show: IShowDetail
 }
 
-export const ShowCardDetailBig: FC<Props> =({ show }) => {
+export const ShowCardDetailBigLink: FC<Props> =({ show }) => {
 
   return (
     <Grid   item 
@@ -17,8 +17,8 @@ export const ShowCardDetailBig: FC<Props> =({ show }) => {
     key={ show.name }
     >
       <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
-      {/* <NextLink href={`${show.linkname}` ? `/${show.linkname}` : ''} passHref prefetch={ false }>
-        <Link> */}
+      <NextLink href={`/${show.link}`} passHref prefetch={ false }>
+        <Link>
         <CardActionArea sx={{ display:'flex', alignItems:'flex-end', justifyContent:'center' , objectFit:'cover' }}>
 
                   <Box
@@ -45,8 +45,8 @@ export const ShowCardDetailBig: FC<Props> =({ show }) => {
                   </Box>
 
         </CardActionArea>
-        {/* </Link>
-        </NextLink> */}
+        </Link>
+      </NextLink>
       </Card>
     </Grid>
   )

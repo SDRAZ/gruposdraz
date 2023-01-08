@@ -52,7 +52,7 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144452/web/PERFORMANCE_mgxvxg.jpg' }
                       alt={ 'Performance' }
                     />
               </CardActionArea>
@@ -79,8 +79,8 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
-                      alt={ 'Performance' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144452/web/BU%CC%81SQUEDA-DE-HUEVOS_oa7gla.jpg' }
+                      alt={ 'Búsqueda de huevos' }
                     />
               </CardActionArea>
         </Card>
@@ -106,7 +106,7 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144452/web/PEGA-EL-IMA%CC%81N_glsgcu.jpg' }
                       alt={ 'Performance' }
                     />
               </CardActionArea>
@@ -133,8 +133,8 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
-                      alt={ 'Performance' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144452/web/DESCUBRIMIENTO-DE-HUESOS_yihwip.jpg' }
+                      alt={ 'Descubrimiento de huesos' }
                     />
               </CardActionArea>
         </Card>
@@ -160,8 +160,8 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
-                      alt={ 'Performance' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144451/web/ARMADO-DE-DINOSAURIO_kkg9qy.jpg' }
+                      alt={ 'Armado de dinosaurio' }
                     />
               </CardActionArea>
         </Card>
@@ -187,8 +187,8 @@ const Ninas = () => {
                       component='img'
                       height='100%'
                       width='100%'
-                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161147/web/mickey-y-minnie_mxnaeg.jpg' }
-                      alt={ 'Performance' }
+                      src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144452/web/RALLY-JURASICO_s9pzod.jpg' }
+                      alt={ 'Rally jurásico' }
                     />
               </CardActionArea>
         </Card>

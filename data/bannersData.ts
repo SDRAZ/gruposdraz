@@ -20,11 +20,12 @@ interface SeedData {
     superheroes: SeedShowDetail[],
     dinosaurios: SeedShowDetail[],
     bebes: SeedShowDetail[],
-    
+    artistas: SeedShowDetail[],
+    personajes: SeedShowDetail[],
 }
 
 export const BannersData: SeedData = {
-    esdrikids: [{
+esdrikids: [{
         name: 'Esdrikids',
         desktop:[
                 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203740/web/shows_banners/LAPTOP_SUPERHEROES_pdzp0h.jpg',
@@ -148,6 +149,22 @@ bebes: [{
             'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203740/web/shows_banners/LAPTOP_DINOSAURIOS_yh5tzs.jpg',
         ],
     mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203686/web/shows_banners/CEL_DINOSAURIOS_cyp6dn.jpg',
+        ]
+}],
+artistas: [{
+    name: 'Artistas Imitadores',
+    desktop:[
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213005/web/LAPTOPS_ARTISTAS-IMITACION_zcgztm.jpg',
+        ],
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213005/web/CEL_ARTISTAS_IMITADORES_uuxayf.jpg',
+        ]
+}],
+personajes: [{
+    name: 'Personajes',
+    desktop:[
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213749/web/LAPTOP_PERSONAJES_ujmbxq.jpg',
+        ],
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213749/web/CEL_PERSONAJES_jv0k1u.jpg',
         ]
 }],
 }
