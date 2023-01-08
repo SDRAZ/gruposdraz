@@ -2,7 +2,7 @@ import { PageLayout } from '../../components/layouts'
 import { BannerShows, WhatsappBtn } from '../../components/ui'
 
 import { showsData } from '../../data/showsData';
-import { ShowListDetailBigLink } from '../../components/shows';
+import { ShowListDetail, ShowListDetailBigLink } from '../../components/shows';
 import { Grid, Box, Typography,Link, CardActionArea, Card } from '@mui/material';
 import { BannersData } from '../../data/bannersData';
 import NextLink from 'next/link';
@@ -51,6 +51,8 @@ const nightparty = () => {
       </Grid>
 
       <ShowListDetailBigLink shows={ showsData.nightparty as any }></ShowListDetailBigLink>
+
+      <ShowListDetail shows={showsData.serviciosNight as any} color={'rgba(212, 13, 132, 0.9);'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>

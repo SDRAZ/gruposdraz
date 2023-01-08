@@ -21,6 +21,7 @@ interface SeedData {
     princesas: SeedShowDetail[],
     nightparty:SeedShowDetail[]
     personajes:SeedShowDetail[]
+    serviciosNight:SeedShowDetail[]
 }
 
 export const showsData: SeedData = {
@@ -488,6 +489,23 @@ export const showsData: SeedData = {
         name: "Personajes",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673205258/web/night-party-show_igd3oz.jpg',
         link:'nightparty/personajes'
+    },
+    ],
+    serviciosNight: [ {
+        name: "Robots",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213493/web/PERSONAJES_05_cl83zv.jpg',
+    },
+    {
+        name: "Cabina LED",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673216708/web/babina_mvoi3g.jpg',
+    },
+    {
+        name: "Glow Party",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213494/web/PERSONAJES_03_j8syrv.jpg',
+    },
+    {
+        name: "Roller 360º",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673216707/web/roller_hblf4u.jpg',
     },
     ],
 }

@@ -44,7 +44,7 @@ const costumeuniverse = () => {
                 </Box>
             </Grid>
 
-      <ShowListDetailBig shows={ showsData.servicios as any }></ShowListDetailBig>
+      {/* <ShowListDetailBig shows={ showsData.servicios as any }></ShowListDetailBig> */}
 
     <WhatsappBtn />
     </PageLayout>
