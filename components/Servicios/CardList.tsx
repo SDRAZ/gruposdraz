@@ -12,7 +12,7 @@ export const CardList: FC<Props> = ({ companies }) => {
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
       <Box textAlign='center' margin={6} sx={{ margin:{xs:'0rem 1rem 2rem 1rem', md:'6rem 1rem 3rem 1rem'}}}>
         <Typography variant='h4' component='h2' fontWeight={700} >Lleva el entretenimiento a tu vida</Typography>
-        <Typography variant='h6' component='p' marginTop={2} lineHeight='20px' >Conoce nuestras diferentes empresas especializadas en cada rama del entretenimiennto de eventos.</Typography>    
+        <Typography variant='h6' component='p' marginTop={2} lineHeight='20px' >Conoce nuestras diferentes empresas especializadas en cada rama del entretenimiento de eventos.</Typography>    
     </Box>
 
     <Grid container 
@@ -21,7 +21,6 @@ export const CardList: FC<Props> = ({ companies }) => {
             >
         {
             companies.map( company => (
-
                 <CompanyCard
                     companies={ company }
                     key={ company.name }

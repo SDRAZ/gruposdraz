@@ -461,7 +461,7 @@ export const showsData: SeedData = {
     ],
     nightparty: [ {
         name: "Artistas Imitadores",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673145715/web/LADY-GAGA_jqziv5.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/ARTISTAS-IMITADORES_kqjuuk.jpg',
         link:'nightparty/artistas-imitacion'
     },
     {
@@ -471,7 +471,7 @@ export const showsData: SeedData = {
     },
     {
         name: "Personajes",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673205258/web/night-party-show_igd3oz.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/CABEZONES-_dgyags.jpg',
         link:'nightparty/personajes'
     },
     ],
@@ -505,7 +505,7 @@ export const showsData: SeedData = {
     },
     {
         name: "Roller 360º",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673216707/web/roller_hblf4u.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401143/web/ROLLER-360_jxna5h.jpg',
     },
     ],
 }

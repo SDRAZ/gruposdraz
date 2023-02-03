@@ -55,7 +55,7 @@ export const MainBanner = () => {
 
             <Box maxWidth='1920px' sx={{zIndex:'2', position:'absolute', padding:{ xs:'1rem', md:'2rem'}, marginTop:{ xs:'1rem', md:'0'} }} className='wrapper' >
               <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
-                  <Typography variant='h1' component={'h1'} fontWeight={ 800 } color='#FAD531' lineHeight='50px' > Mas de 100 show diferentes </Typography>
+                  <Typography variant='h1' component={'h1'} fontWeight={ 800 } color='#FAD531' lineHeight='50px' > Más de 100 show diferentes </Typography>
                   <Typography variant='h5' component={'h4'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'34px'} }} marginTop='1rem' >15 años organizando los mejores espectáculos del sureste mexicano. </Typography>
         
                   <Box marginTop={3}>
