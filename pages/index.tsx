@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <PageLayout title={'GRUPO ESDRAZ'} pageDescription={'15 años organizando los mejores espectáculos del sureste mexicano.'} 
+      <PageLayout title={'GRUPO ESDRAS'} pageDescription={'15 años organizando los mejores espectáculos del sureste mexicano.'} 
       imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
 
       <MainBanner />

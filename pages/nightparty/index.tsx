@@ -14,7 +14,7 @@ const nightparty = () => {
   const BannerName = BannersData.nightparty[0].name
   
   return (
-    <PageLayout title={'Servicos | Grupo Esdraz'} pageDescription={'Servicos del Grupo Esdraz'} 
+    <PageLayout title={'Servicos | Grupo Esdras'} pageDescription={'Servicos del GRUPO ESDRAS.'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop } />

@@ -14,7 +14,7 @@ const costumeuniverse = () => {
   const BannerName = BannersData.costume[0].name
   
   return (
-    <PageLayout title={'Servicos | Grupo Esdraz'} pageDescription={'Servicos del Grupo Esdraz'} 
+    <PageLayout title={'Servicos | GRUPO ESDRAS'} pageDescription={'Servicos del GRUPO ESDRAS.'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229256/web/shows_banners/LAPTOP_COSTUMEUNIVERSE_z3yavm.jpg'}>
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop } />

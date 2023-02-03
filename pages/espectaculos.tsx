@@ -14,7 +14,7 @@ const Ninas = () => {
   const BannerName = BannersData.espectaculos[0].name
   
   return (
-    <PageLayout title={'Grupo Esdraz | Espectáculos'} pageDescription={'Espectáculos del Grupo Esdraz'} 
+    <PageLayout title={'Grupo Esdras | Espectáculos'} pageDescription={'Espectáculos del GRUPO ESDRAS.'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg'}>
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }    />

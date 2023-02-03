@@ -15,7 +15,6 @@ export const ShowListDetailBig: FC<Props> = ({ shows }) => {
     </Box>
 
     <Grid container spacing={ 4 } sx={{ maxWidth:'1200px', marginBottom:'7rem', padding:{xs:'1rem', md:'1rem', lg:'0rem' } }} >
-
         {
             shows.map( show => (
                 <ShowCardDetailBig

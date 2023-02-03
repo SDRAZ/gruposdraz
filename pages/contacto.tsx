@@ -23,31 +23,23 @@ const Contacto = () => {
 
   return (
     <>
-    <PageLayout title={'Contacto'} pageDescription={'Contacta al GRUPO ESDRAZ.'} 
+    <PageLayout title={'Contacto'} pageDescription={'Contacta al GRUPO ESDRAS.'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
-
 
     <Grid
     container  
     width='100%'
-
     justifyContent='space-between'
     maxWidth='1200px' className='contactinfo' 
     >
         <Grid item 
         xs={ 12 } 
         md={ 5 }
-
-        
-
         width='100%' display='flex' flexDirection='column' 
         >
-
             <Typography component='h1' variant='h3' fontWeight={800} sx={{ marginBottom: 3 }}> Contactar </Typography>
                 
             <form onSubmit={handleSubmit}>
-
-           
                 <TextField
                     fullWidth
                     id="name"
@@ -138,7 +130,7 @@ const Contacto = () => {
         <Grid item 
         xs={ 12 } 
         md={ 6 }
-        width='100%' sx={{ paddingLeft:'0', marginTop:{xs:'3rem', md:'0'} }} >
+        width='100%' sx={{ marginTop:{xs:'3rem', md:'0'} }} >
                 <Box display='flex' marginBottom={1}>
                     <Typography fontWeight={800} marginRight={1}>Número:</Typography> <a href="tel:9981913313"> <Typography>+529981913313</Typography> </a>
                 </Box>

@@ -14,7 +14,7 @@ const Ninas = () => {
       const BannerName = BannersData.dinosaurios[0].name
   
   return (
-    <PageLayout title={'Grupo Esdraz | Dinosaurios'} pageDescription={'Dinosaurios del Grupo Esdraz'} 
+    <PageLayout title={'Grupo Esdras | Dinosaurios'} pageDescription={'Dinosaurios del Grupo Esdras'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg'}>
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
@@ -28,7 +28,7 @@ const Ninas = () => {
             width='100%'
             marginBottom={ 8 }
             sx={{ paddingLeft:'0', marginTop:{xs:'3rem', md:'7rem'} }} >
-                <iframe width="600" height="350" src="https://www.youtube.com/embed/slsEds73q4Y" title="YouTube video Dinosarios Grupo Esdraz"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <iframe width="600" height="350" src="https://www.youtube.com/embed/slsEds73q4Y" title="YouTube video Dinosarios GRUPO ESDRAS."  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     </Grid>
 
     <Grid container maxWidth='1000px' spacing={ 4 } sx={{ marginBottom:'7rem' }} margin='0 auto' >
