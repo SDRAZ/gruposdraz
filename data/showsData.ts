@@ -366,11 +366,11 @@ export const showsData: SeedData = {
     ],
     espectaculos: [ {
         name: "Encanto",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/familia-madrigal_w15abn.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675581186/web/CEL_ENCANTO_opkug2.jpg'
     },
     {
         name: "Fantasy show",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161861/web/espectaculos_wdx15u.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675581186/web/CEL_FANTASY_SHOW_wq2ii7.jpg'
     },
     {
         name: "Aladdín",

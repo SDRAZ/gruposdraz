@@ -6,6 +6,7 @@ import ContactPhoneOutlinedIcon from '@mui/icons-material/ContactPhoneOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import CelebrationOutlinedIcon from '@mui/icons-material/CelebrationOutlined';
 import TheaterComedyOutlinedIcon from '@mui/icons-material/TheaterComedyOutlined';
+import HomeIcon from '@mui/icons-material/Home';
 import { UiContext } from "../../context";
 import { useRouter } from "next/router";
 
@@ -29,6 +30,15 @@ export const SideMenu = () => {
         <Box sx={{ width: 250, paddingTop: 5 }}>
             
             <List>
+            <ListItem button
+                onClick={ () => navigateTo('/')}
+                >
+                    <ListItemIcon>
+                        <HomeIcon/>
+                    </ListItemIcon>
+                    <ListItemText primary={'Inicio'} />
+                </ListItem>
+
                 <ListItem button
                 onClick={ () => navigateTo('/esdrikids')}
                 >

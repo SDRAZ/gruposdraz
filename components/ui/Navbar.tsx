@@ -24,6 +24,11 @@ export const Navbar = () => {
               <Box flex={ 1 }/>
 
               <Box sx={{ display: { xs:'none', sm:'block' } }}>
+              <NextLink href='/' passHref>
+                      <Link>
+                          <Button color='info'> Inicio </Button>
+                      </Link>
+                  </NextLink>
                   <NextLink href='/esdrikids' passHref>
                       <Link>
                           <Button color='info'> Shows </Button>
