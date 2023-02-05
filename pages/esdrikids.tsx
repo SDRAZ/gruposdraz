@@ -17,7 +17,25 @@ export const esdrikids = () => {
     const ImageMobile = BannersData.esdrikids[0].mobile
     const BannerName = BannersData.esdrikids[0].name
 
-    // console.log( BannersData.esdrikids[0].desktop );
+    const companies = {
+        images: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/PRESENTADORES_drstyd.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/PASTEL_Y_PI%C3%91ATA_zne0m5.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/DJ_w2ehmy.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/CONCURSOS_aknrib.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/BURBUJAS_y4twlm.jpg']
+    }
+
+    const [count, setCount] = useState(0);
+    const imageArray = companies.images
+  
+    useEffect(() => {
+      const timerId = setInterval(() => {
+        setCount(count => count + 1);
+      }, 4000);
+      return () => clearInterval(timerId);
+    }, []);
+  
+    const image = imageArray[count % imageArray.length];
 
   return (
     <>
@@ -97,13 +115,15 @@ export const esdrikids = () => {
                         </List>
                         
                     </Box>
+
                     <Box
                     component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675402538/web/PRESENTADORES_drstyd.jpg'} 
+                    src={ image } 
                     width='100%'
                     alt='Esdri kids'
                     borderRadius='0px 50px 0px'
                     ></Box>
+
                 </Box>
             </Grid>
 

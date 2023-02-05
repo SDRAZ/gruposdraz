@@ -20,21 +20,16 @@ export const CompanyCard: FC<Props> =({ companies }) => {
 
 
   const [count, setCount] = useState(0);
-
   const imageArray = companies.images
 
   useEffect(() => {
-
     const timerId = setInterval(() => {
       setCount(count => count + 1);
     }, 4000);
-
     return () => clearInterval(timerId);
   }, []);
 
   const image = imageArray[count % imageArray.length];
-  
-
 
 
   return (
