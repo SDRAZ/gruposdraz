@@ -4,6 +4,7 @@ import { BannerShows, WhatsappBtn } from '../../components/ui'
 import { showsData } from '../../data/showsData';
 import { ShowListDetail, ShowListDetailBigLink } from '../../components/shows';
 import { Grid, Box, Typography,Link, CardActionArea, Card } from '@mui/material';
+import Image from 'next/image';
 import { BannersData } from '../../data/bannersData';
 import NextLink from 'next/link';
 
@@ -30,12 +31,12 @@ const nightparty = () => {
       <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
             <img
               src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288397742_313788107630520_4931307361678995751_n_zjemk3.jpg' }
-              alt="Costume Universe"
+              alt="Night Party"
               style={{objectFit:"cover"}}
               width='100%'
               height='90%'
             >
-          </img>
+              </img>
       </Link>
       </Grid>
 
@@ -43,7 +44,7 @@ const nightparty = () => {
       <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
             <img
               src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288164282_759013525129899_394790752449919896_n_j6catz.jpg' }
-              alt="Costume Universe"
+              alt="Night Party"
               style={{objectFit:"cover"}}
               width='100%'
               height='90%'
@@ -56,7 +57,7 @@ const nightparty = () => {
       <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
             <img
               src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288296952_719016259344570_8907340998294891480_n_z1vos2.jpg' }
-              alt="Costume Universe"
+              alt="Night Party"
               style={{objectFit:"cover"}}
               width='100%'
               height='90%'
@@ -69,7 +70,7 @@ const nightparty = () => {
       <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
             <img
               src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288521889_3241460109406902_1256682168678215510_n_ueiuql.jpg' }
-              alt="Costume Universe"
+              alt="Night Party"
               style={{objectFit:"cover"}}
               width='100%'
               height='90%'
