@@ -18,7 +18,7 @@ const Ninas = () => {
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
 
-      <ShowListDetail shows={ showsData.mixto as any } color='rgba(245, 56, 28, 0.9);'></ShowListDetail>
+      <ShowListDetail shows={showsData.mixto as any} color='rgba(245, 56, 28, 0.9);' title={'Shows'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>

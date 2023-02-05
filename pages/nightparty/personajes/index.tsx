@@ -4,7 +4,6 @@ import { BannerShows, WhatsappBtn } from '../../../components/ui'
 
 import { showsData } from '../../../data/showsData';
 
-import { ShowListDetail } from '../../../components/shows';
 import { BannersData } from '../../../data/bannersData';
 import { Grid, Card, CardMedia } from '@mui/material';
 

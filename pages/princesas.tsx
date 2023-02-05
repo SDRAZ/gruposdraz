@@ -44,7 +44,7 @@ const Ninas = () => {
                 </Box>
             </Grid>
 
-      <ShowListDetail shows={ showsData.princesas as any } color={' rgba(245, 117, 186, 0.9) '}></ShowListDetail>
+      <ShowListDetail shows={ showsData.princesas as any } color={' rgba(245, 117, 186, 0.9) '} title={'Shows'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>
