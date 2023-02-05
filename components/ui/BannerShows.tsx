@@ -79,18 +79,20 @@ export const BannerShows:FC<Props> = ({ data, imageBanner, imageMob, name  }) =>
               { mobile
                 ?
                 <Box height='800px'>
-                  <img
+                  <Box
+             component='img'
                   src={ imageMobile }
                   alt="Girl in a jacket"
                   style={{objectFit:"cover"}}
                   width='100%'
                   height='90%'
                       >
-                  </img>
+                  </Box>
                 </Box>
                 :
                 <Box>
-                    <img
+                    <Box
+             component='img'
                 width='100%'
                 src={ image }
                 alt="Show infantil"
