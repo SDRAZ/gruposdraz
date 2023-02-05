@@ -18,9 +18,9 @@ const ArtistasImitacion = () => {
     <PageLayout title={'Shows para Niñas'} pageDescription={'Shows de EsdriKids para niñas'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660518776/web/showsninas_kl7acp.jpg'}>
     
-    <BannerShows name={ 'Cabezones'} imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
+    <BannerShows name={'Cabezones'} imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
 
-      <ShowListDetail shows={showsData.cabezones as any} color={'rgba(212, 13, 132, 0.9);'}></ShowListDetail>
+      <ShowListDetail shows={showsData.cabezones as any} color={'rgba(212, 13, 132, 0.9);'}  title={'Shows'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>

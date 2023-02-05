@@ -20,7 +20,7 @@ const ArtistasImitacion = () => {
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop }  />
 
-      <ShowListDetail shows={showsData.artistas as any} color={'rgba(212, 13, 132, 0.9);'}></ShowListDetail>
+      <ShowListDetail shows={showsData.artistas as any} color={'rgba(212, 13, 132, 0.9);'}  title={'Shows'}></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>

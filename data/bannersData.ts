@@ -90,23 +90,23 @@ costume: [{
 ninos: [{
     name: 'Niños',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229256/web/shows_banners/LAPTOP_COSTUMEUNIVERSE_z3yavm.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574629/web/LAPTOP_NI%C3%91OS_sa03uu.jpg',
         ],
-    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229365/web/shows_banners/CEL_COSTUME-UNIVERSE_tgew81.jpg',
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574629/web/CEL_NI%C3%91OS_q0bqjw.jpg',
         ]
 }],
 ninas: [{
     name: 'Niñas',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229256/web/shows_banners/LAPTOP_PRINCESAS_trkocz.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574323/web/LAPTOP_NI%C3%91AS_anfphm.jpg',
         ],
-    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661229364/web/shows_banners/CEL_PRINCESAS_mhhnho.jpg',
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574323/web/CEL_NI%C3%91AS_egbul5.jpg',
         ]
 }],
 mixto: [{
     name: 'Mixto',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203740/web/shows_banners/LAPTOP_MIXTO_uqk1x7.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574925/web/LAPTOP_MIXTO_sundsd.jpg',
         ],
     mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203686/web/shows_banners/CEL_MIXTO_ehcdl5.jpg',
         ]
@@ -146,9 +146,9 @@ dinosaurios: [{
 bebes: [{
     name: 'Bebés',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203740/web/shows_banners/LAPTOP_DINOSAURIOS_yh5tzs.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/LAPTOP_BEB%C3%89S_xtlkgj.jpg',
         ],
-    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203686/web/shows_banners/CEL_DINOSAURIOS_cyp6dn.jpg',
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/CEL_BEBES_d0vfru.jpg',
         ]
 }],
 artistas: [{

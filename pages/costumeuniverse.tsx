@@ -5,6 +5,7 @@ import { showsData } from '../data/showsData';
 import { ShowListDetailBig } from '../components/shows';
 import { Grid, Box, Typography } from '@mui/material';
 import { BannersData } from '../data/bannersData';
+import Link from 'next/link';
 
 
 const costumeuniverse = () => {
@@ -19,7 +20,7 @@ const costumeuniverse = () => {
     
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop } />
 
-              <Grid item={true}
+      <Grid item={true}
                 sx={{ marginTop:{ xs:'0rem', md:'3rem'} }}
                 display='flex'
                 alignItems='center'
@@ -42,7 +43,79 @@ const costumeuniverse = () => {
                     
                     </Box>
                 </Box>
-            </Grid>
+      </Grid>
+
+
+      <Typography variant='h5' style={{ textAlign:'center' }}>{'Síguenos en Instagram'}</Typography>
+      <Link href={'https://www.instagram.com/disfracesuniverse/'}>
+        <a target="_blank">
+          <Typography variant='h6' mb='1rem' style={{ textAlign:'center' }}>{'@disfracesuniverse'}</Typography>
+        </a>
+      </Link>
+
+      <Grid container maxWidth='1200px' m='0 auto' display='flex' flexDirection='row' mb={3} p={1}>
+
+        <Grid item xs={6} sm={3} p={1}>
+        <Link href={'https://www.instagram.com/disfracesuniverse/'}>
+        <a target="_blank">
+              <img
+                src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675577278/web/Instagram/313302315_686071129381941_296635509913190529_n_kdcane.jpg' }
+                alt="Costume Universe"
+                style={{objectFit:"cover"}}
+                width='100%'
+                height='90%'
+              >
+            </img>
+        </a>
+      </Link>
+        </Grid>
+
+        <Grid item xs={6} sm={3} p={1}>
+        <Link href={'https://www.instagram.com/disfracesuniverse/'}>
+        <a target="_blank">
+              <img
+                src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675577278/web/Instagram/313903526_898956368154960_714121114319119087_n_ekysaq.jpg' }
+                alt="Costume Universe"
+                style={{objectFit:"cover"}}
+                width='100%'
+                height='90%'
+              >
+            </img>
+            </a>
+      </Link>
+        </Grid>
+
+        <Grid item xs={6} sm={3} p={1}>
+        <Link href={'https://www.instagram.com/disfracesuniverse/'}>
+        <a target="_blank">
+              <img
+                src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675577278/web/Instagram/311746724_648777493524026_6565564537250598039_n_fwwzk8.jpg' }
+                alt="Costume Universe"
+                style={{objectFit:"cover"}}
+                width='100%'
+                height='90%'
+              >
+            </img>
+            </a>
+      </Link>
+        </Grid>
+
+        <Grid item xs={6} sm={3} p={1}>
+        <Link href={'https://www.instagram.com/disfracesuniverse/'}>
+        <a target="_blank">
+              <img
+                src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675577278/web/Instagram/309881542_178056831410532_8066403287666155678_n_z7qiq2.jpg' }
+                alt="Costume Universe"
+                style={{objectFit:"cover"}}
+                width='100%'
+                height='90%'
+              >
+            </img>
+            </a>
+      </Link>
+        </Grid>
+
+      </Grid>
 
       {/* <ShowListDetailBig shows={ showsData.servicios as any }></ShowListDetailBig> */}
 

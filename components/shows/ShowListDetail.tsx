@@ -6,13 +6,14 @@ import { ShowCardDetail } from '../shows';
 interface Props {
     shows: IShowDetail[]; 
     color: string;
+    title: string;
 }
 
-export const ShowListDetail: FC<Props> = ({ shows, color }) => {
+export const ShowListDetail: FC<Props> = ({ shows, color, title }) => {
   return (
     <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
       <Box textAlign='center' margin={6} sx={{ margin:{xs:'0rem 1rem 2rem 1rem', md:'6rem 1rem 3rem 1rem'}}}>
-        <Typography variant='h4' component='h2' fontWeight={700} >Shows</Typography>
+        <Typography variant='h4' component='h2' fontWeight={700} >{title}</Typography>
       {/*         
         <Typography variant='h6' component='p' marginTop={2} lineHeight='20px' >Conoce nuestras diferentes empresas especializadas en cada rama del entretenimiennto de eventos.</Typography>    
      */}

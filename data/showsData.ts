@@ -466,12 +466,12 @@ export const showsData: SeedData = {
     },
     {
         name: "Cabezones",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659495028/web/evento_zqqhoi.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/CABEZONES-_dgyags.jpg',
         link:'nightparty/cabezones'
     },
     {
         name: "Personajes",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/CABEZONES-_dgyags.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659495028/web/evento_zqqhoi.jpg',
         link:'nightparty/personajes'
     },
     ],
@@ -482,12 +482,12 @@ export const showsData: SeedData = {
     },
     {
         name: "Cabezones",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659495028/web/evento_zqqhoi.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/CABEZONES-_dgyags.jpg',
         link:'nightparty/cabezones'
     },
     {
         name: "Personajes",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673205258/web/night-party-show_igd3oz.jpg',
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675401206/web/CABEZONES-_dgyags.jpg',
         link:'nightparty/personajes'
     },
     ],

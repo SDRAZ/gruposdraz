@@ -16,10 +16,71 @@ const nightparty = () => {
   return (
     <PageLayout title={'Servicos | Grupo Esdras'} pageDescription={'Servicos del GRUPO ESDRAS.'} 
     imageFullUrl={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1659553121/web/PORTADAS_CABEZON_gvk2p4.jpg'}>
-    
     <BannerShows name={ BannerName } imageMob={ ImageMobile } imageBanner={ ImageDesktop } />
 
-      <Grid item={true}
+
+      <Box mt={6} p={1}>
+      <Typography variant='h5' style={{ textAlign:'center' }}>{'Síguenos en Instagram'}</Typography>
+      <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
+          <Typography variant='h6' mb='1rem' style={{ textAlign:'center' }}>{'@nightpartyshowoficial'}</Typography>
+      </Link>
+      <Grid container maxWidth='1200px' m='0 auto' display='flex' flexDirection='row'>
+
+      <Grid item xs={6} sm={3} p={1}>
+      <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
+            <img
+              src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288397742_313788107630520_4931307361678995751_n_zjemk3.jpg' }
+              alt="Costume Universe"
+              style={{objectFit:"cover"}}
+              width='100%'
+              height='90%'
+            >
+          </img>
+      </Link>
+      </Grid>
+
+      <Grid item xs={6} sm={3} p={1}>
+      <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
+            <img
+              src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288164282_759013525129899_394790752449919896_n_j6catz.jpg' }
+              alt="Costume Universe"
+              style={{objectFit:"cover"}}
+              width='100%'
+              height='90%'
+            >
+          </img>
+      </Link>
+      </Grid>
+
+      <Grid item xs={6} sm={3} p={1}>
+      <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
+            <img
+              src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288296952_719016259344570_8907340998294891480_n_z1vos2.jpg' }
+              alt="Costume Universe"
+              style={{objectFit:"cover"}}
+              width='100%'
+              height='90%'
+            >
+          </img>
+      </Link>
+      </Grid>
+
+      <Grid item xs={6} sm={3} p={1}>
+      <Link href={'https://www.instagram.com/nightpartyshowoficial/'}>
+            <img
+              src={ 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675580147/web/Instagram/288521889_3241460109406902_1256682168678215510_n_ueiuql.jpg' }
+              alt="Costume Universe"
+              style={{objectFit:"cover"}}
+              width='100%'
+              height='90%'
+            >
+          </img>
+      </Link>
+      </Grid>
+      </Grid>
+      </Box>
+
+      <Grid
                 sx={{ marginTop:{ xs:'0rem', md:'3rem'} }}
                 display='flex'
                 alignItems='center'
@@ -52,7 +113,9 @@ const nightparty = () => {
 
       <ShowListDetailBigLink shows={ showsData.nightparty as any }></ShowListDetailBigLink>
 
-      <ShowListDetail shows={showsData.serviciosNight as any} color={'rgba(212, 13, 132, 0.9);'}></ShowListDetail>
+      <ShowListDetail shows={showsData.serviciosNight as any} color={'rgba(212, 13, 132, 0.9);'}
+      title={'Servicios'}
+      ></ShowListDetail>
 
     <WhatsappBtn />
     </PageLayout>
