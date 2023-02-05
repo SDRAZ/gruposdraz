@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { PageLayout } from '../components/layouts';
 import { Banner, BannerShows, WhatsappBtn } from '../components/ui';
 
@@ -9,9 +9,8 @@ import { initialDataShows } from '../data/shows';
 import DoneIcon from '@mui/icons-material/Done';
 import { MainBannerShows } from '../components/ui';
 import { BannersData } from '../data/bannersData';
-import { useState, useEffect } from 'react';
 
-export const esdrikids = () => {
+export const Esdrikids = () => {
 
     const ImageDesktop = BannersData.esdrikids[0].desktop
     const ImageMobile = BannersData.esdrikids[0].mobile
@@ -149,4 +148,4 @@ export const esdrikids = () => {
   )
 }
 
-export default esdrikids;
+export default Esdrikids;
