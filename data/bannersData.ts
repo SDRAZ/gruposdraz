@@ -147,9 +147,9 @@ dinosaurios: [{
 bebes: [{
     name: 'Bebés',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/LAPTOP_BEB%C3%89S_xtlkgj.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677826490/web/Bebes/LAPTOP-BEBE%CC%81S_cispd3.jpg',
         ],
-    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/CEL_BEBES_d0vfru.jpg',
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677826490/web/Bebes/CEL-BEBE%CC%81S_ykdqtb.jpg',
         ]
 }],
 artistas: [{

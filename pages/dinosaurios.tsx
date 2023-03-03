@@ -1,5 +1,5 @@
 import { PageLayout } from '../components/layouts'
-import { BannerShows, WhatsappBtn } from '../components/ui'
+import { BannerShows, WhatsappBtn, ImageSquereSlider } from '../components/ui'
 
 import { showsData } from '../data/showsData';
 import { ShowListDetailBig } from '../components/shows';
@@ -12,6 +12,18 @@ const Ninas = () => {
       const ImageDesktop = BannersData.dinosaurios[0].desktop
       const ImageMobile = BannersData.dinosaurios[0].mobile
       const BannerName = BannersData.dinosaurios[0].name
+
+      const dinos = {
+            botargas: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825201/web/Dinos/TRICERAPTOR_sgrzsj.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825201/web/Dinos/TYRANNOSAURUS-REX_etwyjh.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825201/web/Dinos/NASUTOCERATO_vt1tzq.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825201/web/Dinos/VELOCIRAPTOR_a8x4vz.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825201/web/Dinos/BLUE_ee5yfh.jpg'],
+        paquetes: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825454/web/Dinos/PAQUETE_01_ldxnsn.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825454/web/Dinos/PAQUETE_02_f2llfd.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825454/web/Dinos/PAQUETE_03_dcs5av.jpg',
+        'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677825454/web/Dinos/PAQUETE_04_hphtj4.jpg',]
+        }
   
   return (
     <PageLayout title={'Grupo Esdras | Dinosaurios'} pageDescription={'Dinosaurios del Grupo Esdras'} 
@@ -32,6 +44,25 @@ const Ninas = () => {
     </Grid>
 
     <Grid container maxWidth='1000px' spacing={ 4 } sx={{ marginBottom:'7rem' }} margin='0 auto' >
+
+    <Grid item
+            xs={ 12 } 
+            sm={ 6 } 
+            alignItems='center'
+            justifyContent='center'
+            marginTop={ 4 }
+            >
+
+        <Box marginBottom={ 5 }>
+            <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Nuevos Paquetes' } </Typography>
+        </Box>
+
+        <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
+              <CardActionArea sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
+              <ImageSquereSlider imageBanner={dinos.paquetes}/>
+              </CardActionArea>
+        </Card>
+      </Grid>
 
       <Grid item
             xs={ 12 } 
@@ -193,6 +224,25 @@ const Ninas = () => {
               </CardActionArea>
         </Card>
 
+      </Grid>
+
+      <Grid item
+            xs={ 12 } 
+            sm={ 6 } 
+            alignItems='center'
+            justifyContent='center'
+            marginTop={ 4 }
+            >
+
+        <Box marginBottom={ 5 }>
+            <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Botargas' } </Typography>
+        </Box>
+
+        <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
+              <CardActionArea sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
+              <ImageSquereSlider imageBanner={dinos.botargas}/>
+              </CardActionArea>
+        </Card>
       </Grid>
 
     </Grid>

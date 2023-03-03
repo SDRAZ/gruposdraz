@@ -84,10 +84,6 @@ export const showsData: SeedData = {
             images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673142038/web/PAW-PATROL_smebcc.jpg'
         },
         {
-            name: "PIKACHU",
-            images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673142038/web/PIKACHU_w9psmx.jpg'
-        },
-        {
             name: "JAKE Y LOS PIRATAS",
             images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673142038/web/JAKE-Y-LOS-PIRATAS_evfucv.jpg'
         },
@@ -168,17 +164,11 @@ export const showsData: SeedData = {
         name: "Iron Man",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143202/web/IRON-MAN_uqhqiq.jpg'
     },    {
-        name: "Hulk",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143202/web/HULK_pd3grl.jpg'
-    },    {
         name: "Thor",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143205/web/THOR_jnjoxa.jpg'
     }
     ],
-    bebes: [ {
-        name: "Bob Esponja",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673144342/web/bob_gxsctp.jpg'
-    },
+    bebes: [
     {
         name: "Pistas de Blue",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143733/web/PISTAS-DE-BLUE_rjo0cl.jpg'
@@ -261,7 +251,7 @@ export const showsData: SeedData = {
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673145170/web/ANGRY-BIRDS_c1ptrp.jpg'
     },
     {
-        name: "Amoug Us",
+        name: "Among Us",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673145170/web/AMONG-US_p1fepj.jpg'
     },
     {
