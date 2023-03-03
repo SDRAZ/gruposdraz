@@ -6,9 +6,10 @@ import { ImageError } from 'next/dist/server/image-optimizer';
 interface Props {
   data?: SeedShowDetail[];
   imageBanner: string[],
+  boderRadius?: string, 
 }
 
-export const ImageSquereSlider:FC<Props> = ({ data, imageBanner  }) => {
+export const ImageSquereSlider:FC<Props> = ({ data, imageBanner, boderRadius  }) => {
 
     const [mobile, setMobile] = useState<boolean | undefined>(true)
 
@@ -38,11 +39,12 @@ export const ImageSquereSlider:FC<Props> = ({ data, imageBanner  }) => {
 
   return (
               <Box
-             component='img'
+                borderRadius={boderRadius}
+                component='img'
                 width='100%'
                 src={ image }
                 alt="esdras Image"
                 style={{boxSizing:"content-box"}}
-                />
+              />
   )
 }

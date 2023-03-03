@@ -57,7 +57,10 @@ export const showsData: SeedData = {
                 name: "Rarity",
                 images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673141834/web/RARITY_cveuqo.jpg'
             },
-        
+            {
+                name: "Luli Pampín con Blipi",
+                images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677871825/web/ninas/LULI-PAMPIN-Y-BLIPI_iak3a0.jpg'
+            },
     ],
     ninos: [ {
             name: "Héroes en Pijama",
@@ -191,7 +194,7 @@ export const showsData: SeedData = {
     },
     {
         name: "Baby Shark",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143732/web/BABY-SHARK_wmksgf.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872778/web/Bebes/BABY-SHARK_djrqqd.jpg'
     },
     {
         name: "Shopkins",
@@ -212,6 +215,10 @@ export const showsData: SeedData = {
     {
         name: "Los Muppets",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673143733/web/LOS-MUPPETS_jicbpk.jpg'
+    },
+    {
+        name: "Plim Plim",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872777/web/Bebes/PLIM-PLIM_gxkkkt.jpg'
     }
     ],
     videojuegos: [ {
@@ -261,7 +268,15 @@ export const showsData: SeedData = {
     {
         name: "Slug Terra",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673145171/web/SLUG-TERRA_s2sdlw.jpg'
-    }
+    },
+    {
+        name: "Pikachu",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873179/web/Videojuegos/PIKACHU_xxljab.jpg'
+    },
+    {
+        name: "Fortnite",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873179/web/Videojuegos/FORTNITE_objhoz.jpg'
+    },
     ],
     mixto: [ {
         name: "Red",
@@ -286,7 +301,27 @@ export const showsData: SeedData = {
     {
         name: "Bob Esponja",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673145409/web/BOB-ESPONJA_qpwclj.jpg'
-    }
+    },
+    {
+        name: "Mike Waqowski",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872487/web/Mixto/MIKE_WAZOWSKI_urcdkc.jpg'
+    },
+    {
+        name: "Boo",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872487/web/Mixto/BOO_khafkw.jpg'
+    },
+    {
+        name: "Pinocho y Geppetto",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872487/web/Mixto/PINOCHO-Y-GEPPETTO_shxtge.jpg'
+    },
+    {
+        name: "Pepe Grillo",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872487/web/Mixto/PEPE-GRILLO_kqm9cm.jpg'
+    },
+    {
+        name: "Stitch",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677872487/web/Mixto/STITCH_qwawfi.jpg'
+    },
     ],
     artistas: [ {
         name: "Bruno Mars",
@@ -369,20 +404,44 @@ export const showsData: SeedData = {
     {
         name: "La Sirenita",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673141504/web/CEL_SIRENITA_fcc1m6.jpg'
-    }
+    },
+    {
+        name: "Coco",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677874120/web/espectaculos/COCO_fnq8i2.jpg'
+    },
+    {
+        name: "Super Héroes",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677874121/web/espectaculos/SUPER-HE%CC%81ROES_bjblpb.jpg'
+    },
     ],
     estrenos: [ {
         name: "Encanto",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660161862/web/familia-madrigal_w15abn.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677874034/web/Estrenos/ENCANTO_spkuty.jpg'
     },
     {
         name: "Muppet Babies",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673146978/web/MUPP_ohabzm.jpg'
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873805/web/Estrenos/MUPPET-BABIES_ie9d4s.jpg'
     },
     {
         name: "Luli Pampin",
-        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673146678/web/ab67616d0000b273240dcfcca3eb24fe0c774d98_r9vg0o.jpg'
-    }
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677871825/web/ninas/LULI-PAMPIN-Y-BLIPI_iak3a0.jpg'
+    },
+    {
+        name: "Gabby y la casa de las muñecas",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873461/web/Estrenos/GABBY-Y-LA-CASA-DE-LAS-MUN%CC%83ECAS_yjzdfl.jpg'
+    },
+    {
+        name: "Merlina",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873461/web/Estrenos/MERLINA_q5ejzu.jpg'
+    },
+    {
+        name: "SING",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873461/web/Estrenos/SING_je1zkl.jpg'
+    },
+    {
+        name: "Rey Julien",
+        images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677873461/web/Estrenos/REY-JULIEN_kwr1m7.jpg'
+    },
     ],
     servicios: [ {
         name: "Miniferia",
@@ -399,10 +458,12 @@ export const showsData: SeedData = {
     {
         name: "Servicio de espuma",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/ESPUMA_ns2hdd.jpg'
-    },    {
+    },
+    {
         name: "Rally",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/RALLY-JURASICO_vfeamm.jpg'
-    },    {
+    },
+    {
         name: "Pinta caritas",
         images: 'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/PINTA-CARITAS_hcikxy.jpg'
     }

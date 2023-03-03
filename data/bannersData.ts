@@ -107,9 +107,9 @@ ninas: [{
 mixto: [{
     name: 'Mixto',
     desktop:[
-            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574925/web/LAPTOP_MIXTO_sundsd.jpg',
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/LAPTOP_BEB%C3%89S_xtlkgj.jpg',
         ],
-    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1661203686/web/shows_banners/CEL_MIXTO_ehcdl5.jpg',
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675574730/web/CEL_BEBES_d0vfru.jpg',
         ]
 }],
 estrenos: [{

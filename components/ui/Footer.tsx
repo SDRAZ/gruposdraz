@@ -15,7 +15,7 @@ export const Footer = () => {
 
         <Box flex={ 1 }/>
 
-        <Typography color='#fff' sx={{marginTop:{xs:'1rem', md:'0'}}}>© 2022 GRUPO SDRAZ. Todos los derechos reservados.</Typography>
+        <Typography color='#fff' sx={{marginTop:{xs:'1rem', md:'0'}}}>© 2023 GRUPO ESDRAS. Todos los derechos reservados.</Typography>
 
         </Toolbar>
   )

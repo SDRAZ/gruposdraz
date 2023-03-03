@@ -22,7 +22,6 @@ export const ShowListDetail: FC<Props> = ({ shows, color, title }) => {
     <Grid container spacing={ 4 } sx={{ maxWidth:'1200px', marginBottom:'7rem', padding:{xs:'1rem', md:'1rem', lg:'0rem' } }} >
         {
             shows.map( show => (
-              
                 <ShowCardDetail
                     key={ show.name }
                     show={ show }

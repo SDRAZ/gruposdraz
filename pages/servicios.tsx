@@ -1,5 +1,5 @@
 import { PageLayout } from '../components/layouts'
-import { BannerShows, WhatsappBtn } from '../components/ui'
+import { BannerShows, ImageSquereSlider, WhatsappBtn } from '../components/ui'
 
 import { showsData } from '../data/showsData';
 import { ShowListDetailBig } from '../components/shows';
@@ -9,6 +9,43 @@ import { ShowCardDetailBig } from '../components/shows/ShowCardDetailBig';
 
 
 const Ninas = () => {
+
+    const servicios = {
+        pintaCaritas: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_02_anngvx.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/PINTA-CARITAS_hcikxy.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_01_wyjaud.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_04_l71g1h.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_03_gca7g2.jpg',
+'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_05_hnvlbj.jpg'],
+    miniferia: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/FOTOS-MINIFERIA_q1f3kj.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875323/web/Servicios/FERIA_01_skttvl.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875323/web/Servicios/FERIA_02_gfiavw.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875323/web/Servicios/FERIA_03_owe13b.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875323/web/Servicios/FERIA_04_xm0jsk.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875323/web/Servicios/FERIA_05_yaj1j0.jpg',],
+    poolParty: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875572/web/Servicios/POOL-PARTY_01_pcrgec.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875572/web/Servicios/POOL-PARTY_02_hbzbfa.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875572/web/Servicios/POOL-PARTY_04_jtxlkt.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875572/web/Servicios/POOL-PARTY_05_wnuagj.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875572/web/Servicios/POOL-PARTY_03_legxe9.jpg',],
+    caballetes: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/CABALLETES_t0bpcu.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875762/web/Servicios/CABALLETES_01_la89eq.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875762/web/Servicios/CABALLETES_02_mcksfy.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875762/web/Servicios/CABALLETES_04_iyjwox.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875762/web/Servicios/CABALLETES_03_fr4ln0.jpg',],
+    rally: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/RALLY-JURASICO_vfeamm.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876044/web/Servicios/ESDRINO_02_aomgtt.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876044/web/Servicios/ESDRINO_03_u3m6da.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876044/web/Servicios/ESDRINO_04_vzcn5a.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876045/web/Servicios/ESDRINO_05_lyvpfq.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876044/web/Servicios/ESDRINO_06_usxygs.jpg',],
+    espuma: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/ESPUMA_ns2hdd.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_01_lemjbx.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_02_uffmy6.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_03_pismtd.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_04_gtjklf.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_05_cwjrgv.jpg',]
+    }
 
   const ImageDesktop = BannersData.servicios[0].desktop
   const ImageMobile = BannersData.servicios[0].mobile
@@ -27,13 +64,7 @@ const Ninas = () => {
                 justifyContent='center'
                 >
                 <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/FOTOS-MINIFERIA_q1f3kj.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.miniferia}/>
 
                     <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
                         <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } > MINI FERIA KIDS </Typography>
@@ -57,13 +88,7 @@ const Ninas = () => {
                           </Typography>
                     </Box>
 
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/POOL-PARTY_bvkp9n.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.poolParty}/>
                 </Box>
             </Grid>
 
@@ -73,13 +98,7 @@ const Ninas = () => {
                 justifyContent='center'
                 >
                 <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/CABALLETES_t0bpcu.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.caballetes}/>
 
                     <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
                         <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } >
@@ -107,13 +126,7 @@ const Ninas = () => {
                         </Typography>
                     </Box>
 
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/RALLY-JURASICO_vfeamm.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.rally}/>
                 </Box>
             </Grid>
 
@@ -123,13 +136,7 @@ const Ninas = () => {
                 justifyContent='center'
                 >
                 <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/ESPUMA_ns2hdd.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.espuma}/>
 
                     <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
                         <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } >
@@ -156,14 +163,9 @@ const Ninas = () => {
                         PONEMOS A TU DISPOSICIÓN EL SERVICIO DE PINTACARITAS CON MAQUILLAJE INFANTIL FANTASÍA.
                         </Typography>
                     </Box>
-
-                    <Box
-                    component='img'
-                    src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1675398155/web/Servicios/PINTA-CARITAS_hcikxy.jpg'} 
-                    width='100%'
-                    alt='Esdri kids'
-                    borderRadius='0px 50px 0px'
-                    ></Box>
+                    <Box borderRadius='0px 50px 0px'>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.pintaCaritas}/>
+                    </Box>
                 </Box>
             </Grid>
 
