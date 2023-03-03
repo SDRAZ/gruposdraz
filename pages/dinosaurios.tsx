@@ -43,36 +43,52 @@ const Ninas = () => {
                 <iframe width="600" height="350" src="https://www.youtube.com/embed/slsEds73q4Y" title="YouTube video Dinosarios GRUPO ESDRAS."  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
     </Grid>
 
-    <Grid container maxWidth='1000px' spacing={ 4 } sx={{ marginBottom:'7rem' }} margin='0 auto' >
+    <Grid container maxWidth='1000px' p={4} sx={{ marginBottom:'7rem' }} margin='0 auto'>
 
-    <Grid item
+      <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Nuevos Paquetes' } </Typography>
         </Box>
 
         <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
-              <CardActionArea sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
+              <Box sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
               <ImageSquereSlider imageBanner={dinos.paquetes}/>
-              </CardActionArea>
+              </Box>
         </Card>
       </Grid>
 
       <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
+            <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Botargas' } </Typography>
+        </Box>
+
+        <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
+            <Box sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
+              <ImageSquereSlider imageBanner={dinos.botargas}/>
+            </Box>
+        </Card>
+      </Grid>
+
+      <Grid item
+            xs={ 12 } 
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
+            marginTop={ 4 }
+            >
+
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Performance' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Se presenta un performance de cazadores y un dinosaurio con pirotecnia.' } </Typography>
         </Box>
@@ -93,13 +109,12 @@ const Ninas = () => {
 
       <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Búsqueda de huevos' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Se hace una búsqueda de huevos para encontrar a los bebes dinosaurio.' } </Typography>
         </Box>
@@ -121,12 +136,12 @@ const Ninas = () => {
       <Grid item
             xs={ 12 } 
             sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Pega el imán' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Competencia para pegar los dinosaurios en pizarra que se encuentran en los huevos.' } </Typography>
         </Box>
@@ -147,13 +162,12 @@ const Ninas = () => {
 
       <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Descubrimiento de huesos' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Podrás encontrar entre la arena huesos de dinosaurios..' } </Typography>
         </Box>
@@ -174,13 +188,12 @@ const Ninas = () => {
 
       <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Armado de dinosaurio' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Al descubrir los huesos , podrás armar un dinosaurio con ayuda de los cazadores.' } </Typography>
         </Box>
@@ -201,13 +214,12 @@ const Ninas = () => {
 
       <Grid item
             xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
+            sm={ 6 }
+            sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
 
-        <Box marginBottom={ 5 }>
+        <Box marginBottom={ 3 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Rally jurásico' } </Typography>
             <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Consiste en un circuito de distintos juegos como: pasar el aro, correr en zigzag, armar un mega rompecabezas y atinarle al dinosaurio..' } </Typography>
         </Box>
@@ -224,25 +236,6 @@ const Ninas = () => {
               </CardActionArea>
         </Card>
 
-      </Grid>
-
-      <Grid item
-            xs={ 12 } 
-            sm={ 6 } 
-            alignItems='center'
-            justifyContent='center'
-            marginTop={ 4 }
-            >
-
-        <Box marginBottom={ 5 }>
-            <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Botargas' } </Typography>
-        </Box>
-
-        <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>
-              <CardActionArea sx={{ display:'flex', alignItems:'center', justifyContent:'center' , objectFit:'cover' }}>
-              <ImageSquereSlider imageBanner={dinos.botargas}/>
-              </CardActionArea>
-        </Card>
       </Grid>
 
     </Grid>
