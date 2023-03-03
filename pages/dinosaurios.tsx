@@ -136,7 +136,6 @@ const Ninas = () => {
       <Grid item
             xs={ 12 } 
             sm={ 6 } 
-            sm={ 6 }
             sx={{ paddingRight:{xs:'0', sm:'40px'} }}
             marginTop={ 4 }
             >
