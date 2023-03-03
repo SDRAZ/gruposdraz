@@ -1,14 +1,13 @@
 import { PageLayout } from '../components/layouts'
 import { BannerShows, ImageSquereSlider, WhatsappBtn } from '../components/ui'
-
-import { showsData } from '../data/showsData';
-import { ShowListDetailBig } from '../components/shows';
+// import { showsData } from '../data/showsData';
+// import { ShowListDetailBig } from '../components/shows';
 import { Grid, Box, Typography } from '@mui/material';
 import { BannersData } from '../data/bannersData';
-import { ShowCardDetailBig } from '../components/shows/ShowCardDetailBig';
+// import { ShowCardDetailBig } from '../components/shows/ShowCardDetailBig';
 
 
-const Ninas = () => {
+const servicios = () => {
 
     const servicios = {
         pintaCaritas: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677875042/web/Servicios/PINTA-CARITAS_02_anngvx.jpg',
@@ -44,7 +43,36 @@ const Ninas = () => {
     'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_02_uffmy6.jpg',
     'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_03_pismtd.jpg',
     'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_04_gtjklf.jpg',
-    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_05_cwjrgv.jpg',]
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677876233/web/Servicios/FOAM-PARTY_05_cwjrgv.jpg',],
+    teepees: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885334/web/Servicios/Tepees_01_fwku7q.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885334/web/Servicios/Tepees_02_scvoyv.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885334/web/Servicios/Tepees_03_fjej0x.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885334/web/Servicios/Tepees_04_h5wslp.jpg',],
+    roller: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885493/web/Servicios/ROLLER_01_tfpnor.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885493/web/Servicios/ROLLER_02_muabkf.jpg',],
+    inflables: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_01_odr8df.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_02_zq7o4n.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_03_iutv2m.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_04_cdtrjp.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_05_lkpr8b.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677885801/web/Servicios/INFLABLES_06_zvr0bn.jpg',],
+    regalos: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886167/web/Servicios/REGALO_01_ivgvot.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886167/web/Servicios/REGALO_02_yuun0p.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886167/web/Servicios/REGALO_03_vwfe1d.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886167/web/Servicios/REGALO_04_yaadsi.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886167/web/Servicios/REGALO_05_uavmi6.jpg',],
+    cabezones: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886347/web/Servicios/PITBULL_kgncbp.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886346/web/Servicios/DADDY-YANKEE_s08t77.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886346/web/Servicios/BAD-BUNNY_ajklyg.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886346/web/Servicios/LA-MASCARA_qdggiz.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886346/web/Servicios/MICHAEL-JACKSON_upx72w.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886346/web/Servicios/FREDDIE-MERCURY_xyjjsa.jpg',],
+    neon: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NEON_04_jcpzdd.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NEON_01_vxlq6s.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NEON_02_nso1jt.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NEON_05_duaoit.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NOEN_03_dh4p6k.jpg',
+    'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677886759/web/Servicios/NEON_06_a4fopd.jpg',]
     }
 
   const ImageDesktop = BannersData.servicios[0].desktop
@@ -169,10 +197,127 @@ const Ninas = () => {
                 </Box>
             </Grid>
 
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.teepees}/>
+
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } >
+                        TEEPEES PARTY
+                          </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        FESTEJA DE UNA MANERA ESPECIAL TU CUMPLEAÑOS EN LA COMODIDAD DE UNOS TEPPEES, CON CINE Y  PALOMITAS.
+                          </Typography>
+                    </Box>
+                </Box>
+            </Grid>
+            
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } > 
+                        ROLLER 360º
+                        </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        CAPTURA LO MEJOR DE TU EVENTO DE UNA MANERA DIVERTIDA Y COMPÁRTELO EN TUS REDES SOCIALES.
+                        </Typography>
+                    </Box>
+                    <Box borderRadius='0px 50px 0px'>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.roller}/>
+                    </Box>
+                </Box>
+            </Grid>
+
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.inflables}/>
+
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } >
+                        INFLABLES DECORATIVOS
+                          </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        TENEMOS UNA VARIEDAD DE INFLABLES TEMÁTICOS PARA QUE TE DIVIERTAS A LO GRANDE.
+                          </Typography>
+                    </Box>
+                </Box>
+            </Grid>
+            
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } > 
+                        ENTREGA DE REGALO
+                        </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        SOMOS LOS INDICADOS PARA LLEVAR SORPRESAS Y CREAR UNA EXPERIENCIA ÚNICA.
+                        </Typography>
+                    </Box>
+                    <Box borderRadius='0px 50px 0px'>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.pintaCaritas}/>
+                    </Box>
+                </Box>
+            </Grid>
+
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.cabezones}/>
+
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } >
+                        CABEZONES
+                          </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        NUESTROS PERSONAJES CABEZONES SON PERFECTOS PARA QUE TU EVENTO SEA ORIGINAL Y LA PASEN INCREÍBLE.
+                          </Typography>
+                    </Box>
+                </Box>
+            </Grid>
+            
+            <Grid item={true}
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                >
+                <Box maxWidth='1200px' alignItems='center' sx={{padding:{ xs:'2rem', md:'3rem'} }} className='wrapper' >
+                    <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
+                        <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } > 
+                        NEON PARTY
+                        </Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >
+                        BRILLA EN TU FIESTA NEÓN CON MÁS DE 100 ACCESORIOS, INCREÍBLE DECORACIÓN, PINTURA, INFLABLES Y MÁS.
+                        </Typography>
+                    </Box>
+                    <Box borderRadius='0px 50px 0px'>
+                    <ImageSquereSlider boderRadius='0px 50px 0px' imageBanner={servicios.neon}/>
+                    </Box>
+                </Box>
+            </Grid>
+
       {/* <ShowListDetailBig shows={ showsData.servicios as any }></ShowListDetailBig> */}
 
     <WhatsappBtn />
     </PageLayout>
   )
 }
-export default Ninas;
+export default servicios;
