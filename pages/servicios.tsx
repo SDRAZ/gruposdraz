@@ -37,7 +37,7 @@ const Ninas = () => {
 
                     <Box color='#fff' maxWidth='650px' sx={{ textAlign:{xs:'center', md:'left'} }}>
                         <Typography variant='h4' component={'h4'} fontWeight={ 800 } color='primary' lineHeight='30px' marginBottom={ 4 } > MINI FERIA KIDS </Typography>
-                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >DISFRUTA DE LOS JUEGOS MÁS DIVERTIDOS DE FERIA INFANTIL CON TODOS TUS INVOTADOS. CANICAS, PLINKO, AROS, BOLICHE, PESCA Y BOTES.</Typography>
+                        <Typography variant='h6' component={'h6'} fontWeight={ 500 }  sx={{ lineHeight:{xs:'28px' ,md:'28px'}, color:'#081142' }} marginTop='1rem' >DISFRUTA DE LOS JUEGOS MÁS DIVERTIDOS DE FERIA INFANTIL CON TODOS TUS INVITADOS. CANICAS, PLINKO, AROS, BOLICHE, PESCA Y BOTES.</Typography>
                     </Box>
                 </Box>
             </Grid>

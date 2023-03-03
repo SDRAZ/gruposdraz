@@ -178,7 +178,7 @@ const Ninas = () => {
 
         <Box marginBottom={ 5 }>
             <Typography textAlign='left'  variant='h5' component='h4' fontWeight='800'>{ 'Rally jurásico' } </Typography>
-            <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Consiste en un circuito de distintos juegos como: pasar elaro, correr en zigzag, armar un mega rompecabezas y atinarle al dinosaurio..' } </Typography>
+            <Typography textAlign='left'  variant='subtitle2' component='h4' >{ 'Consiste en un circuito de distintos juegos como: pasar el aro, correr en zigzag, armar un mega rompecabezas y atinarle al dinosaurio..' } </Typography>
         </Box>
 
         <Card sx={{ borderRadius:'0% 10% 0% 10%', width:'fit-content'}}>

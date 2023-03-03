@@ -22,6 +22,7 @@ interface SeedData {
     bebes: SeedShowDetail[],
     artistas: SeedShowDetail[],
     personajes: SeedShowDetail[],
+    nosotros: SeedShowDetail[],
 }
 
 export const BannersData: SeedData = {
@@ -165,6 +166,14 @@ personajes: [{
             'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213749/web/LAPTOP_PERSONAJES_ujmbxq.jpg',
         ],
     mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1673213749/web/CEL_PERSONAJES_jv0k1u.jpg',
+        ]
+}],
+nosotros: [{
+    name: '',
+    desktop:[
+            'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677823269/web/Nosotros/NOSOTROS_bevyu7.jpg' 
+        ],
+    mobile: ['https://res.cloudinary.com/dfmfxdkx4/image/upload/v1677823812/web/Nosotros/mobile_nosotros_huflcp.jpg'
         ]
 }],
 }

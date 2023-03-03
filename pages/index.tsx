@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 import { PageLayout } from '../components/layouts';
 import { Box } from '@mui/material';
-import { MainBanner, SectionVideo, WhatsappBtn} from '../components/ui';
+import { MainBanner, SectionVideo, WhatsappBtn, HomeBanner} from '../components/ui';
 import { CardList } from '../components/Servicios/CardList';
 import { initialData } from '../data/empresas';
 import { EventosDescuentos } from '../components/eventos/EventosDescuentos';
@@ -19,6 +19,8 @@ const Home: NextPage = () => {
       <SectionVideo />
       <EventosDescuentos image={''} imageName={''} />
 
+      <HomeBanner />
+      
       <Box
       component='img'
       src={'https://res.cloudinary.com/dfmfxdkx4/image/upload/v1660165133/web/hotels_ztxlmc.png'} 
