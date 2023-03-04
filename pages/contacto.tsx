@@ -14,7 +14,7 @@ const handleContactUsRedirect = () => {
 
 const Contacto = () => {
 
-    const [state, handleSubmit] = useForm('xvoyogoy');
+    const [state, handleSubmit] = useForm('xayzjlno');
   if (state.succeeded) {
 
     handleContactUsRedirect();
@@ -87,13 +87,11 @@ const Contacto = () => {
                 />
               
             <Box marginTop={ 6 }>
-
                 <Button type="submit" disabled={state.submitting}
                     sx={{ background:'linear-gradient(180deg, #D40D84 0%, #51117E 100%)', 
                     paddingLeft:'2rem', paddingRight:'2rem',":hover":{transform: 'scale(1.03)'}, width:'100%' }}>
                     <Typography fontWeight={ 700 } fontSize='15px' lineHeight='36px'>Enviar mensaje</Typography>
                 </Button>
-
                 </Box>
             </form>
 
